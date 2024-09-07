@@ -1,0 +1,3493 @@
+{
+    "templates": [],
+    "mods": {
+      "filter": {
+        "tItemType": "nt_filter",
+        "filterItems": [
+          {
+            "name": "category",
+            "unfoldRow": "-1",
+            "title": "Category",
+            "urlKey": "category",
+            "hidden": false,
+            "locked": false,
+            "type": "category",
+            "uniqueName": "category",
+            "value": "drones-batteries",
+            "displayValue": "Accessories & Batteries",
+            "options": [
+              {
+                "url": "/drones-batteries/",
+                "title": "Drone Accessories & Batteries",
+                "value": "drones-batteries"
+              }
+            ]
+          },
+          {
+            "name": "brand",
+            "unfoldRow": "2",
+            "title": "Brand",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "brand",
+            "uniqueName": "20000",
+            "options": [
+              {
+                "title": "Miniauto",
+                "value": "miniauto-123798436"
+              }
+            ]
+          },
+          {
+            "name": "service",
+            "unfoldRow": "4",
+            "title": "Service & Promotion",
+            "urlKey": "service",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "service",
+            "options": [
+              {
+                "title": "Mall",
+                "value": "mall",
+                "activeIcon": "",
+                "normalIcon": ""
+              },
+              {
+                "title": "Free Delivery",
+                "value": "freedelivery",
+                "activeIcon": "",
+                "normalIcon": ""
+              },
+              {
+                "title": "9.9",
+                "value": "6.6",
+                "activeIcon": "",
+                "normalIcon": ""
+              },
+              {
+                "title": "Coins",
+                "value": "coins",
+                "activeIcon": "",
+                "normalIcon": ""
+              }
+            ]
+          },
+          {
+            "name": "location",
+            "unfoldRow": "3",
+            "title": "Shipped From",
+            "urlKey": "location",
+            "hidden": false,
+            "locked": false,
+            "type": "location",
+            "uniqueName": "location",
+            "value": [],
+            "options": [
+              {
+                "title": "Dhaka",
+                "value": "Dhaka"
+              },
+              {
+                "title": "Rajshahi",
+                "value": "Rajshahi"
+              },
+              {
+                "title": "Chattogram",
+                "value": "Chattogram"
+              },
+              {
+                "title": "Barishal",
+                "value": "Barishal"
+              },
+              {
+                "title": "Rangpur",
+                "value": "Rangpur"
+              },
+              {
+                "title": "Khulna",
+                "value": "Khulna"
+              },
+              {
+                "title": "Sylhet",
+                "value": "Sylhet"
+              },
+              {
+                "title": "Local",
+                "value": "Local"
+              },
+              {
+                "title": "Overseas",
+                "value": "Overseas"
+              }
+            ]
+          },
+          {
+            "showMin": "Min",
+            "showMax": "Max",
+            "name": "price",
+            "unfoldRow": "2",
+            "title": "Price",
+            "urlKey": "price",
+            "hidden": false,
+            "locked": false,
+            "type": "price",
+            "uniqueName": "price"
+          },
+          {
+            "name": "rating",
+            "unfoldRow": "2",
+            "title": "Rating",
+            "urlKey": "rating",
+            "hidden": false,
+            "locked": false,
+            "type": "rating",
+            "uniqueName": "rating",
+            "value": "0"
+          },
+          {
+            "name": "attribute",
+            "unfoldRow": "0",
+            "title": "Color Family",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "30129",
+            "options": [
+              {
+                "title": "Multicolor",
+                "value": "30129:3759"
+              },
+              {
+                "title": "Silver",
+                "value": "30129:3741"
+              },
+              {
+                "title": "Black",
+                "value": "30129:3731"
+              },
+              {
+                "title": "Yellow",
+                "value": "30129:3744"
+              },
+              {
+                "title": "Blue",
+                "value": "30129:3732"
+              },
+              {
+                "title": "Pink",
+                "value": "30129:3739"
+              },
+              {
+                "title": "Multi",
+                "value": "30129:19454"
+              },
+              {
+                "title": "White",
+                "value": "30129:3743"
+              },
+              {
+                "title": "Grey",
+                "value": "30129:3735"
+              }
+            ]
+          },
+          {
+            "name": "attribute",
+            "unfoldRow": "0",
+            "title": "Warranty Type",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "7",
+            "options": [
+              {
+                "title": "No Warranty",
+                "value": "7:4498"
+              },
+              {
+                "title": "Brand Warranty",
+                "value": "7:192950"
+              }
+            ]
+          },
+          {
+            "name": "attribute",
+            "unfoldRow": "0",
+            "title": "Recommended Age",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "31187",
+            "options": [
+              {
+                "title": "8-11 years",
+                "value": "31187:20001"
+              },
+              {
+                "title": "17 Years and above",
+                "value": "31187:23250"
+              },
+              {
+                "title": "5-7 years",
+                "value": "31187:19986"
+              },
+              {
+                "title": "0 - 12 years",
+                "value": "31187:76137"
+              },
+              {
+                "title": "4-10 years",
+                "value": "31187:20008"
+              }
+            ]
+          },
+          {
+            "name": "attribute",
+            "unfoldRow": "0",
+            "title": "Main Material",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "30131",
+            "options": [
+              {
+                "title": "Plastic",
+                "value": "30131:4343"
+              },
+              {
+                "title": "PVC",
+                "value": "30131:14386"
+              },
+              {
+                "title": "Metal",
+                "value": "30131:3827"
+              }
+            ]
+          },
+          {
+            "name": "attribute",
+            "unfoldRow": "0",
+            "title": "Warranty Period",
+            "urlKey": "ppath",
+            "hidden": false,
+            "locked": false,
+            "type": "multiple",
+            "uniqueName": "8",
+            "options": [
+              {
+                "title": "1 Year",
+                "value": "8:4447"
+              }
+            ]
+          }
+        ],
+        "filteredQuatity": "158",
+        "filteredDoneText": "Product",
+        "title": "Search Filter",
+        "pos": 0
+      },
+      "listItems": [
+        { 
+          "name": "Drone - Battery (ZFR F190)", // Product Name
+          "nid": "266841354",
+          "itemId": "266841354",
+          "icons": [],
+          "image": "https://bd-live-21.slatic.net/kf/Sdb9742f44c66465aa027408dee0bf0dd5.jpg", // Image
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1238556953",
+            "x_item_ids": "266841354",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "360",
+            "x_object_id": "266841354"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 360",
+          "discount": "8% Off", // Discount
+          "ratingScore": "4.25", // Rating
+          "review": "8", // Review
+          "location": "Dhaka", // Location
+          "description": [
+            "Item Type: Battery",
+            "Battery Capacity: 3.7 V 600mAh Lipo    ",
+            "Rechargeable Battery    "
+          ],
+          "thumbs": [],
+          "sellerName": "1 Collection",
+          "sellerId": "700518612100",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "266841354_BD-1238556953",
+          "skuId": "1238556953",
+          "sku": "266841354_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "360", // Price
+          "inStock": true,
+          "originalPrice": "390", // Original Price
+          "clickTrace": "query:;nid:266841354;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:266841354_BD;price:360;client:desktop;supplier_id:700518612100;biz_source:h5_unknow;slot:0;utlog_bucket_id:470687;asc_category_id:9354;item_id:266841354;sku_id:1238556953;shop_id:261260;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "93 sold", // Sold
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "266841354_BD-1238556953"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fbd-live-21.slatic.net%2Fkf%2FSdb9742f44c66465aa027408dee0bf0dd5.jpg&src=srp_findsimilar&item_id=266841354&sku_id=1238556953&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=360.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/zfr-f190-i266841354.html", // Product URL
+          "querystring": "priceCompare=skuId%3A1238556953%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A36000%3BvoucherPrice%3A36000%3BdisplayPrice%3A36000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.25&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=93&price=3.6E%202&review=8&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A266841354%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A266841354_BD%253Bprice%253A360%253Bclient%253Adesktop%253Bsupplier_id%253A700518612100%253Bbiz_source%253Ah5_unknow%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A266841354%253Bsku_id%253A1238556953%253Bshop_id%253A261260%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "3.7 volt 250mah lipo battery for su27 plane toy plane",
+          "nid": "330768620",
+          "itemId": "330768620",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/8c514d8dd0e475078820cb43684abc53.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1612057773",
+            "x_item_ids": "330768620",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "299",
+            "x_object_id": "330768620"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 299",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Rangpur",
+          "description": [
+            "• 3.7 volt 250mah lipo battery for SU27 plane toy.",
+            "• Suitable for remote control and play vehicles.",
+            "• Provides long-lasting power for your drone.",
+            "• Lightweight and easy to install.",
+            "• Perfect replacement for your old or damaged battery."
+          ],
+          "thumbs": [],
+          "sellerName": "SA mart.",
+          "sellerId": "700507803083",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "330768620_BD-1612057773",
+          "skuId": "1612057773",
+          "sku": "330768620_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "299",
+          "inStock": true,
+          "clickTrace": "query:;nid:330768620;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:330768620_BD;price:299;client:desktop;supplier_id:700507803083;biz_source:h5_unknow;slot:1;utlog_bucket_id:470687;asc_category_id:9354;item_id:330768620;sku_id:1612057773;shop_id:113416;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "14 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "330768620_BD-1612057773"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F8c514d8dd0e475078820cb43684abc53.jpg&src=srp_findsimilar&item_id=330768620&sku_id=1612057773&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=299.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/su27-37-250mah-i330768620.html",
+          "querystring": "priceCompare=skuId%3A1612057773%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A29900%3BvoucherPrice%3A29900%3BdisplayPrice%3A29900%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=14&price=299&review=1&location=Rangpur&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A330768620%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A330768620_BD%253Bprice%253A299%253Bclient%253Adesktop%253Bsupplier_id%253A700507803083%253Bbiz_source%253Ah5_unknow%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A330768620%253Bsku_id%253A1612057773%253Bshop_id%253A113416%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "702030P 300mah Li-po Battery for Rc Toy Quadcopter Drone",
+          "nid": "287270501",
+          "itemId": "287270501",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/2f3f7f360dabc010035859f8f0eb0a73.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1286575276",
+            "x_item_ids": "287270501",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "350",
+            "x_object_id": "287270501"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 350",
+          "ratingScore": "3.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [
+            "100% Brand-new",
+            "Item Name: Li-po Battery",
+            "One Cell Lithium Polymer Battery",
+            "Output: 3.7v 25C 300mAh at nominal",
+            "Approx. wire length: 5cm",
+            "Built-in protection circuit PCM for prevent overcharging or over discharging.",
+            "High capacity, low inner resistance, long cycle life, low self-discharge.",
+            "Rapid charge-discharge cycle life up to more than 500 times.",
+            "Approx. Dimension:34x20x8mm",
+            "Weight: 8gm"
+          ],
+          "thumbs": [],
+          "sellerName": "Uni-Tone",
+          "sellerId": "700507506110",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "287270501_BD-1286575276",
+          "skuId": "1286575276",
+          "sku": "287270501_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "350",
+          "inStock": true,
+          "clickTrace": "query:;nid:287270501;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:287270501_BD;price:350;client:desktop;supplier_id:700507506110;biz_source:h5_unknow;slot:2;utlog_bucket_id:470687;asc_category_id:9354;item_id:287270501;sku_id:1286575276;shop_id:93122;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "30 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "287270501_BD-1286575276"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F2f3f7f360dabc010035859f8f0eb0a73.jpg&src=srp_findsimilar&item_id=287270501&sku_id=1286575276&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=350.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/702030p-300mah-li-po-battery-for-rc-toy-quadcopter-drone-i287270501.html",
+          "querystring": "priceCompare=skuId%3A1286575276%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A35000%3BvoucherPrice%3A35000%3BdisplayPrice%3A35000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=30&price=3.5E%202&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A287270501%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A287270501_BD%253Bprice%253A350%253Bclient%253Adesktop%253Bsupplier_id%253A700507506110%253Bbiz_source%253Ah5_unknow%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A287270501%253Bsku_id%253A1286575276%253Bshop_id%253A93122%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Propeller Fan Blade for RC Project 8 inch 2pcs",
+          "nid": "316841037",
+          "itemId": "316841037",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/fd8d26af28118e66deebc4f07a35782d.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1434958322",
+            "x_item_ids": "316841037",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "115",
+            "x_object_id": "316841037"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 115",
+          "discount": "12% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [
+            "Band Name: Any Brands",
+            "Rotation: CW &amp; CCW",
+            "Diameter:  8″ Inch",
+            "Pitch: 4.5 inch",
+            "Propeller Diameter: 25.4cm",
+            "Max Thickness : 3.5mm",
+            "Thickness of center: 9.0mm",
+            "Color: Random ",
+            "Weight:16gm(Approx.)"
+          ],
+          "thumbs": [],
+          "sellerName": "e-Basket  BD",
+          "sellerId": "700519668943",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "316841037_BD-1434958322",
+          "skuId": "1434958322",
+          "sku": "316841037_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "115",
+          "inStock": true,
+          "originalPrice": "130",
+          "clickTrace": "query:;nid:316841037;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:316841037_BD;price:115;client:desktop;supplier_id:700519668943;biz_source:h5_unknow;slot:3;utlog_bucket_id:470687;asc_category_id:9354;item_id:316841037;sku_id:1434958322;shop_id:265337;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "37 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "316841037_BD-1434958322"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Ffd8d26af28118e66deebc4f07a35782d.jpg&src=srp_findsimilar&item_id=316841037&sku_id=1434958322&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=115.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/propeller-fan-blade-for-rc-project-8-inch-2pcs-i316841037.html",
+          "querystring": "priceCompare=skuId%3A1434958322%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A11500%3BvoucherPrice%3A11500%3BdisplayPrice%3A11500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=37&price=115&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A316841037%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A316841037_BD%253Bprice%253A115%253Bclient%253Adesktop%253Bsupplier_id%253A700519668943%253Bbiz_source%253Ah5_unknow%253Bslot%253A3%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A316841037%253Bsku_id%253A1434958322%253Bshop_id%253A265337%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Motor, RC Quad copter Motor Pack Clockwise Motor Counter Clockwise Motor- 2pcs",
+          "nid": "354174112",
+          "itemId": "354174112",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/131a2e975ae824cdba5e407f70e83946.png",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1734268870",
+            "x_item_ids": "354174112",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "280",
+            "x_object_id": "354174112"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 280",
+          "discount": "30% Off",
+          "ratingScore": "1.5714285714285714",
+          "review": "7",
+          "location": "Dhaka",
+          "description": [
+            "Motor Diameter: 7mm",
+            "Motor Length: 16mm",
+            "Weight: about 1.8g",
+            "Speed: 55000 rpm",
+            "Rated voltage: 3.7 V",
+            "Motor position:all position",
+            "1* Clockwise",
+            "1*Counter Clockwise"
+          ],
+          "thumbs": [],
+          "sellerName": " Alam Electronics",
+          "sellerId": "700555326796",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "354174112_BD-1734268870",
+          "skuId": "1734268870",
+          "sku": "354174112_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "280",
+          "inStock": true,
+          "originalPrice": "400",
+          "clickTrace": "query:;nid:354174112;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:354174112_BD;price:280;client:desktop;supplier_id:700555326796;biz_source:h5_unknow;slot:4;utlog_bucket_id:470687;asc_category_id:9354;item_id:354174112;sku_id:1734268870;shop_id:404218;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "66 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "354174112_BD-1734268870"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F131a2e975ae824cdba5e407f70e83946.png&src=srp_findsimilar&item_id=354174112&sku_id=1734268870&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=280.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/rc-2-i354174112.html",
+          "querystring": "priceCompare=skuId%3A1734268870%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A28000%3BvoucherPrice%3A28000%3BdisplayPrice%3A28000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=1.5714285714285714&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=66&price=2.8E%202&review=7&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A354174112%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A354174112_BD%253Bprice%253A280%253Bclient%253Adesktop%253Bsupplier_id%253A700555326796%253Bbiz_source%253Ah5_unknow%253Bslot%253A4%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A354174112%253Bsku_id%253A1734268870%253Bshop_id%253A404218%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Motor blade 4 pcs",
+          "nid": "151852118",
+          "itemId": "151852118",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/c55a3f36c2869b1b124ef2c39e35fb1c.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1079190596",
+            "x_item_ids": "151852118",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "85",
+            "x_object_id": "151852118"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 85",
+          "discount": "47% Off",
+          "ratingScore": "4.111111111111111",
+          "review": "45",
+          "location": "Dhaka",
+          "description": [
+            "Motor Diameter: 7mm",
+            "blade Length: 2inc",
+            "Weight: about 1.8g",
+            "Speed: 55000 rpm",
+            "Rated voltage: 3.7 V",
+            "Motor position: all position"
+          ],
+          "thumbs": [],
+          "sellerName": "Top Tech",
+          "sellerId": "1028453",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "151852118_BD-1079190596",
+          "skuId": "1079190596",
+          "sku": "151852118_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "85",
+          "inStock": true,
+          "originalPrice": "160",
+          "clickTrace": "query:;nid:151852118;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:151852118_BD;price:85;client:desktop;supplier_id:1028453;biz_source:h5_unknow;slot:5;utlog_bucket_id:470687;asc_category_id:9354;item_id:151852118;sku_id:1079190596;shop_id:34548;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "373 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "151852118_BD-1079190596"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fc55a3f36c2869b1b124ef2c39e35fb1c.jpg&src=srp_findsimilar&item_id=151852118&sku_id=1079190596&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=85.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/4-i151852118.html",
+          "querystring": "priceCompare=skuId%3A1079190596%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A8500%3BvoucherPrice%3A8500%3BdisplayPrice%3A8500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.111111111111111&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=373&price=85&review=45&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A151852118%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A151852118_BD%253Bprice%253A85%253Bclient%253Adesktop%253Bsupplier_id%253A1028453%253Bbiz_source%253Ah5_unknow%253Bslot%253A5%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A151852118%253Bsku_id%253A1079190596%253Bshop_id%253A34548%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "52000rpm 3.7v DC coreless motor for RC airplane, mini drone motor",
+          "nid": "182251150",
+          "itemId": "182251150",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/db7774e3e58c7c406a41d4902ff6f833.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1125692154",
+            "x_item_ids": "182251150",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "98",
+            "x_object_id": "182251150"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 98",
+          "discount": "35% Off",
+          "ratingScore": "3.3666666666666667",
+          "review": "61",
+          "location": "Dhaka",
+          "description": [
+            "Step 1:- Product Title: 52000rpm 3.7v DC coreless motor for RC airplane- Category Path: Toys &amp; Games&gt;Remote Control &amp; Play Vehicles&gt;Drones &amp; Accessories&gt;Accessories &amp; BatteriesStep 2:- Additional Keywords: RC airplane, mini drone motorStep 3:• High-speed 52000rpm motor for RC airplanes and mini drones.• 3.7v DC coreless motor designed for efficient performance.• Ideal for enhancing the speed and agility of your aircraft.• Perfect for hobbyists and enthusiasts in the RC community.Step 4:• Powerful 52000rpm motor for RC airplanes and mini drones.• Efficient 3.7v DC coreless motor for enhanced performance.• Enhances speed and agility of your RC aircraft.• Ideal for hobbyists and RC enthusiasts.Step 5:Return the product highlights to the user."
+          ],
+          "thumbs": [],
+          "sellerName": "Robot World",
+          "sellerId": "1013931",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "182251150_BD-1125692154",
+          "skuId": "1125692154",
+          "sku": "182251150_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "98",
+          "inStock": true,
+          "originalPrice": "150",
+          "clickTrace": "query:;nid:182251150;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:182251150_BD;price:98;client:desktop;supplier_id:1013931;biz_source:h5_unknow;slot:6;utlog_bucket_id:470687;asc_category_id:9354;item_id:182251150;sku_id:1125692154;shop_id:20204;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "703 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "182251150_BD-1125692154"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fdb7774e3e58c7c406a41d4902ff6f833.jpg&src=srp_findsimilar&item_id=182251150&sku_id=1125692154&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=98.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/52000rpm-37v-dc-coreless-motor-for-rc-airplane-mini-drone-motor-i182251150.html",
+          "querystring": "priceCompare=skuId%3A1125692154%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A9800%3BvoucherPrice%3A9800%3BdisplayPrice%3A9800%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.3666666666666667&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=703&price=98&review=61&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A182251150%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A182251150_BD%253Bprice%253A98%253Bclient%253Adesktop%253Bsupplier_id%253A1013931%253Bbiz_source%253Ah5_unknow%253Bslot%253A6%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A182251150%253Bsku_id%253A1125692154%253Bshop_id%253A20204%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "DC Motor Mini Fan - Black",
+          "nid": "203528868",
+          "itemId": "203528868",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/9f6dfa9b332eea72a91abd7f54d8c949.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1671447012",
+            "x_item_ids": "203528868",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "63",
+            "x_object_id": "203528868"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 63",
+          "discount": "36% Off",
+          "ratingScore": "4.588235294117647",
+          "review": "17",
+          "location": "Dhaka",
+          "description": [
+            "    pre {        white-space: pre-wrap;    }• DC Motor Mini Fan - Black• Category: Toys & Games \u003E Remote Control & Play Vehicles \u003E Drones & Accessories \u003E Accessories & Batteries"
+          ],
+          "thumbs": [],
+          "sellerName": "R.P Electronics (TAN)",
+          "sellerId": "700507506332",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "203528868_BD-1671447012",
+          "skuId": "1671447012",
+          "sku": "203528868_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "63",
+          "inStock": true,
+          "originalPrice": "98",
+          "clickTrace": "query:;nid:203528868;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:203528868_BD;price:63;client:desktop;supplier_id:700507506332;biz_source:h5_unknow;slot:7;utlog_bucket_id:470687;asc_category_id:9354;item_id:203528868;sku_id:1671447012;shop_id:98522;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "146 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "203528868_BD-1671447012"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F9f6dfa9b332eea72a91abd7f54d8c949.jpg&src=srp_findsimilar&item_id=203528868&sku_id=1671447012&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=63.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/dc-i203528868.html",
+          "querystring": "priceCompare=skuId%3A1671447012%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A6300%3BvoucherPrice%3A6300%3BdisplayPrice%3A6300%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.588235294117647&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=146&price=63&review=17&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A203528868%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A203528868_BD%253Bprice%253A63%253Bclient%253Adesktop%253Bsupplier_id%253A700507506332%253Bbiz_source%253Ah5_unknow%253Bslot%253A7%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A203528868%253Bsku_id%253A1671447012%253Bshop_id%253A98522%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Premium USB Lithium Polymer (Li-Po) Fast Battery Charger Adapter with XH2.54(Molex 51005-2P) Connector for RC Drone, Helicopter, Car & Airplane",
+          "nid": "194872068",
+          "itemId": "194872068",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/1682bae205c950331f30b0fff9b59e12.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1141455638",
+            "x_item_ids": "194872068",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "249",
+            "x_object_id": "194872068"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 249",
+          "ratingScore": "4.2",
+          "review": "5",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "Uni-Tone",
+          "sellerId": "700507506110",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "194872068_BD-1141455638",
+          "skuId": "1141455638",
+          "sku": "194872068_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "249",
+          "inStock": true,
+          "clickTrace": "query:;nid:194872068;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:194872068_BD;price:249;client:desktop;supplier_id:700507506110;biz_source:h5_unknow;slot:8;utlog_bucket_id:470687;asc_category_id:9354;item_id:194872068;sku_id:1141455638;shop_id:93122;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "66 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "194872068_BD-1141455638"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F1682bae205c950331f30b0fff9b59e12.jpg&src=srp_findsimilar&item_id=194872068&sku_id=1141455638&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=249.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/premium-usb-lithium-polymer-li-po-fast-battery-charger-adapter-with-xh254molex-51005-2p-connector-for-rc-drone-helicopter-car-airplane-i194872068.html",
+          "querystring": "priceCompare=skuId%3A1141455638%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A24900%3BvoucherPrice%3A24900%3BdisplayPrice%3A24900%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.2&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=66&price=249&review=5&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A194872068%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A194872068_BD%253Bprice%253A249%253Bclient%253Adesktop%253Bsupplier_id%253A700507506110%253Bbiz_source%253Ah5_unknow%253Bslot%253A8%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A194872068%253Bsku_id%253A1141455638%253Bshop_id%253A93122%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Motor blade 4 pcs",
+          "nid": "324989686",
+          "itemId": "324989686",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 3",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            },
+            {
+              "domClass": "120555",
+              "type": "img",
+              "group": "3",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/c55a3f36c2869b1b124ef2c39e35fb1c.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1556840813",
+            "x_item_ids": "324989686",
+            "iconList": "116050;116038;120555",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "85",
+            "x_object_id": "324989686"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 85",
+          "discount": "14% Off",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Dhaka",
+          "description": [
+            "blade Length: 2inc",
+            "Weight: about 1.8g",
+            "Speed: 55000 rpm",
+            "Rated voltage: 3.7 V",
+            "Motor position: all position"
+          ],
+          "thumbs": [],
+          "sellerName": "womensworld",
+          "sellerId": "1015766",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "324989686_BD-1556840813",
+          "skuId": "1556840813",
+          "sku": "324989686_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "85",
+          "inStock": true,
+          "originalPrice": "99",
+          "clickTrace": "query:;nid:324989686;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:324989686_BD;price:85;client:desktop;supplier_id:1015766;biz_source:h5_unknow;slot:9;utlog_bucket_id:470687;asc_category_id:9354;item_id:324989686;sku_id:1556840813;shop_id:21518;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "24 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "324989686_BD-1556840813"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fc55a3f36c2869b1b124ef2c39e35fb1c.jpg&src=srp_findsimilar&item_id=324989686&sku_id=1556840813&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=85.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/4-i324989686.html",
+          "querystring": "priceCompare=skuId%3A1556840813%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A8500%3BvoucherPrice%3A8500%3BdisplayPrice%3A8500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=24&price=85&review=1&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A324989686%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A324989686_BD%253Bprice%253A85%253Bclient%253Adesktop%253Bsupplier_id%253A1015766%253Bbiz_source%253Ah5_unknow%253Bslot%253A9%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A324989686%253Bsku_id%253A1556840813%253Bshop_id%253A21518%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Motor - Drone",
+          "nid": "271061853",
+          "itemId": "271061853",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "120555",
+              "type": "img",
+              "group": "3",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/b15d9ab23f2f4a339620f3086567e48e.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1242772902",
+            "x_item_ids": "271061853",
+            "iconList": "116050;120555",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "99",
+            "x_object_id": "271061853"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 99",
+          "discount": "54% Off",
+          "ratingScore": "3.6666666666666665",
+          "review": "9",
+          "location": "Dhaka",
+          "description": [
+            "Instruction: Users must abide by the Drone Registration and Flying Act 2020",
+            "Motor Diameter: 7mm",
+            "Motor Length: 16mm",
+            "Weight: about 1.8g",
+            "Speed: 55000 rpm",
+            "Rated voltage: 3.7 V",
+            "Motor position:all position",
+            "#drone",
+            "#drone camera"
+          ],
+          "thumbs": [],
+          "sellerName": "AS electronics BD",
+          "sellerId": "700508115017",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "271061853_BD-1242772902",
+          "skuId": "1242772902",
+          "sku": "271061853_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "99",
+          "inStock": true,
+          "originalPrice": "217",
+          "clickTrace": "query:;nid:271061853;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:271061853_BD;price:99;client:desktop;supplier_id:700508115017;biz_source:h5_unknow;slot:10;utlog_bucket_id:470687;asc_category_id:9354;item_id:271061853;sku_id:1242772902;shop_id:127854;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "115 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "271061853_BD-1242772902"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fb15d9ab23f2f4a339620f3086567e48e.jpg&src=srp_findsimilar&item_id=271061853&sku_id=1242772902&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=99.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/ultra-high-speed-core-less-motor-drone-i271061853.html",
+          "querystring": "priceCompare=skuId%3A1242772902%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A9900%3BvoucherPrice%3A9900%3BdisplayPrice%3A9900%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.6666666666666665&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=115&price=99&review=9&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A271061853%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A271061853_BD%253Bprice%253A99%253Bclient%253Adesktop%253Bsupplier_id%253A700508115017%253Bbiz_source%253Ah5_unknow%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A271061853%253Bsku_id%253A1242772902%253Bshop_id%253A127854%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "18650 Rechargeable Battery 4800 mhA for Mini Fan. light. power Bank. others 3.7v Blue - Power Bank",
+          "nid": "283210518",
+          "itemId": "283210518",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/342cba58041076349386fc388a090c0f.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1274073378",
+            "x_item_ids": "283210518",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "110",
+            "x_object_id": "283210518"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 110",
+          "discount": "39% Off",
+          "ratingScore": "5.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [
+            "3.7 V 18650 rechargeable lithium battery – Pink",
+            "Color: Pink",
+            "Type of lithium ion",
+            "Battery model 18650",
+            "Battery capacity 4800mAh",
+            "Voltage Battery 3.7 V",
+            "Rechargeable battery Yes",
+            "1000 times rechargeable battery",
+            "PCB board protected no",
+            "Ideal application for laptop / flashlight, etc.",
+            "Dimensions: 2.56 in x 0.71 in x 0.71 in (6.5 cm x 1.8 cm x 1.8 cm)",
+            "#power bank"
+          ],
+          "thumbs": [],
+          "sellerName": "Mohammad Electronics & Mobile Accessories",
+          "sellerId": "700509948234",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "283210518_BD-1274073378",
+          "skuId": "1274073378",
+          "sku": "283210518_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "110",
+          "inStock": true,
+          "originalPrice": "180",
+          "clickTrace": "query:;nid:283210518;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:283210518_BD;price:110;client:desktop;supplier_id:700509948234;biz_source:h5_unknow;slot:11;utlog_bucket_id:470687;asc_category_id:9354;item_id:283210518;sku_id:1274073378;shop_id:222066;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "50 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "283210518_BD-1274073378"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F342cba58041076349386fc388a090c0f.jpg&src=srp_findsimilar&item_id=283210518&sku_id=1274073378&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=110.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/18650-rechargeable-battery-4800-mha-for-mini-fan-light-power-bank-others-37v-blue-power-bank-i283210518.html",
+          "querystring": "priceCompare=skuId%3A1274073378%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A11000%3BvoucherPrice%3A11000%3BdisplayPrice%3A11000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=50&price=1.1E%202&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A283210518%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A283210518_BD%253Bprice%253A110%253Bclient%253Adesktop%253Bsupplier_id%253A700509948234%253Bbiz_source%253Ah5_unknow%253Bslot%253A11%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A283210518%253Bsku_id%253A1274073378%253Bshop_id%253A222066%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Mini Motor 4pis",
+          "nid": "266892286",
+          "itemId": "266892286",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/8c35cb300cafbfb2eea745a66ebeaa2b.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1238529561",
+            "x_item_ids": "266892286",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "330",
+            "x_object_id": "266892286"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 330",
+          "discount": "27% Off",
+          "ratingScore": "4.5",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [
+            "Instruction: Users must abide by the Drone Registration and Flying Act 2020",
+            "Diameter:",
+            "Length:",
+            "Shaft length:",
+            "Shaft diameter",
+            "Weight: 2.5 g",
+            "Speed: 58000 rpm",
+            "Rated voltage: 3.7 V",
+            "Rated current: 100mA"
+          ],
+          "thumbs": [],
+          "sellerName": "Safe Cart",
+          "sellerId": "700508802880",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "266892286_BD-1238529561",
+          "skuId": "1238529561",
+          "sku": "266892286_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "330",
+          "inStock": true,
+          "originalPrice": "450",
+          "clickTrace": "query:;nid:266892286;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:266892286_BD;price:330;client:desktop;supplier_id:700508802880;biz_source:h5_unknow;slot:12;utlog_bucket_id:470687;asc_category_id:9354;item_id:266892286;sku_id:1238529561;shop_id:190135;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "44 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "266892286_BD-1238529561"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F8c35cb300cafbfb2eea745a66ebeaa2b.jpg&src=srp_findsimilar&item_id=266892286&sku_id=1238529561&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=330.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/4-i266892286.html",
+          "querystring": "priceCompare=skuId%3A1238529561%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A33000%3BvoucherPrice%3A33000%3BdisplayPrice%3A33000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.5&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=44&price=3.3E%202&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A266892286%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A266892286_BD%253Bprice%253A330%253Bclient%253Adesktop%253Bsupplier_id%253A700508802880%253Bbiz_source%253Ah5_unknow%253Bslot%253A12%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A266892286%253Bsku_id%253A1238529561%253Bshop_id%253A190135%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "EMAX RS2205 2300KV RaceSpec Cooling Series High Power Brushless DC Motor (BLDC) - CW/CCW Pair for Drone, FPV, Racing Drone, RC Plane (4 Pcs = 2 CW & 2 CCW)",
+          "nid": "347713806",
+          "itemId": "347713806",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/c4c25a25181ecf6c8b03a5aa46ebe8d6.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1702001348",
+            "x_item_ids": "347713806",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "3350",
+            "x_object_id": "347713806"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 3,350",
+          "discount": "26% Off",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Dhaka",
+          "description": [
+            "Model: RS2205",
+            "Version: RaceSpec Cooling Series",
+            "KV: 2300kv",
+            "Weight: Approx. 30g with wires",
+            "Wire AWG: 20AWG",
+            "Thrust: 1024g (1 Kg)",
+            "Shaft: 5mm",
+            "Propeller: 4045- 5045",
+            "Stator Diameter: 22mm",
+            "Stator Height: 5mm",
+            "Shaft Diameter: 3mm",
+            "Configuration: 12N14P",
+            "Motor Diameter: 27.9mm",
+            "Motor Height: 31.7mm",
+            "Prop Adapter Shaft Thread: M5",
+            "Input voltage: 3S-4S (11.1v - 14.8v)",
+            "KV2300 With HQ5045 BN Max.thrust:1024g",
+            "KV2600 With HQ4045 BN Max.thrust:763g",
+            "Motor Type: BLDC"
+          ],
+          "thumbs": [],
+          "sellerName": "CIRCUIT POINT BD",
+          "sellerId": "700573232923",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "347713806_BD-1702001348",
+          "skuId": "1702001348",
+          "sku": "347713806_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "3350",
+          "inStock": true,
+          "originalPrice": "4500",
+          "clickTrace": "query:;nid:347713806;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:347713806_BD;price:3350;client:desktop;supplier_id:700573232923;biz_source:h5_unknow;slot:13;utlog_bucket_id:470687;asc_category_id:9354;item_id:347713806;sku_id:1702001348;shop_id:416887;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "6 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "347713806_BD-1702001348"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fc4c25a25181ecf6c8b03a5aa46ebe8d6.jpg&src=srp_findsimilar&item_id=347713806&sku_id=1702001348&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=3350.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/emax-rs2205-2300kv-dc-bldc-fpv-rc-cwccw-4-pcs-2-cw-2-ccw-i347713806.html",
+          "querystring": "priceCompare=skuId%3A1702001348%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A335000%3BvoucherPrice%3A335000%3BdisplayPrice%3A335000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=6&price=3.35E%203&review=1&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A347713806%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A347713806_BD%253Bprice%253A3350%253Bclient%253Adesktop%253Bsupplier_id%253A700573232923%253Bbiz_source%253Ah5_unknow%253Bslot%253A13%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A347713806%253Bsku_id%253A1702001348%253Bshop_id%253A416887%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Mini Motor With Blade 1pcs",
+          "nid": "182248236",
+          "itemId": "182248236",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/0106fafcce1854fd04f9f28cc6dfb0b7.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1125689548",
+            "x_item_ids": "182248236",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "119",
+            "x_object_id": "182248236"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 119",
+          "discount": "21% Off",
+          "ratingScore": "5.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "Robot World",
+          "sellerId": "1013931",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "182248236_BD-1125689548",
+          "skuId": "1125689548",
+          "sku": "182248236_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "119",
+          "inStock": true,
+          "originalPrice": "150",
+          "clickTrace": "query:;nid:182248236;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:182248236_BD;price:119;client:desktop;supplier_id:1013931;biz_source:h5_unknow;slot:14;utlog_bucket_id:470687;asc_category_id:9354;item_id:182248236;sku_id:1125689548;shop_id:20204;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "39 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "182248236_BD-1125689548"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F0106fafcce1854fd04f9f28cc6dfb0b7.jpg&src=srp_findsimilar&item_id=182248236&sku_id=1125689548&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=119.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/ultra-high-speed-core-less-mini-motor-with-blade-1pcs-i182248236.html",
+          "querystring": "priceCompare=skuId%3A1125689548%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A11900%3BvoucherPrice%3A11900%3BdisplayPrice%3A11900%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=39&price=119&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A182248236%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A182248236_BD%253Bprice%253A119%253Bclient%253Adesktop%253Bsupplier_id%253A1013931%253Bbiz_source%253Ah5_unknow%253Bslot%253A14%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A182248236%253Bsku_id%253A1125689548%253Bshop_id%253A20204%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "720 Motor 720 48000RPM DC 3.7V 7x20mm Magnetic Micro Motor High Speed With 2 Wire Cables For 55mm Fan DIY",
+          "nid": "269879309",
+          "itemId": "269879309",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 2",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/f7bf639bc32d4951e004d611e41a9d63.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1241598074",
+            "x_item_ids": "269879309",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "77",
+            "x_object_id": "269879309"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 77",
+          "discount": "13% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "Azmain eshop",
+          "sellerId": "700507857152",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "269879309_BD-1241598074",
+          "skuId": "1241598074",
+          "sku": "269879309_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "77",
+          "inStock": true,
+          "originalPrice": "88",
+          "clickTrace": "query:;nid:269879309;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:269879309_BD;price:77;client:desktop;supplier_id:700507857152;biz_source:h5_unknow;slot:15;utlog_bucket_id:470687;asc_category_id:9354;item_id:269879309;sku_id:1241598074;shop_id:115869;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "13 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "269879309_BD-1241598074"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Ff7bf639bc32d4951e004d611e41a9d63.jpg&src=srp_findsimilar&item_id=269879309&sku_id=1241598074&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=77.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/55mm-diy-2-720-rpm-dc-720-v-7x20mm-i269879309.html",
+          "querystring": "priceCompare=skuId%3A1241598074%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A7700%3BvoucherPrice%3A7700%3BdisplayPrice%3A7700%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=13&price=77&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A269879309%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A269879309_BD%253Bprice%253A77%253Bclient%253Adesktop%253Bsupplier_id%253A700507857152%253Bbiz_source%253Ah5_unknow%253Bslot%253A15%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A269879309%253Bsku_id%253A1241598074%253Bshop_id%253A115869%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "2 MINI CORELESS MOTOR WITH PROPELLER BLADES FOR RC AEROPLANE HELICOPTER - Drone - Drone Camera",
+          "nid": "282793097",
+          "itemId": "282793097",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/5e36fa45729ea6ba54ef4a7a28f16574.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1272594992",
+            "x_item_ids": "282793097",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "168",
+            "x_object_id": "282793097"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 168",
+          "discount": "27% Off",
+          "ratingScore": "3.25",
+          "review": "24",
+          "location": "Dhaka",
+          "description": [
+            "Motor Specifications: Size: 7 x 20MM Voltage: 3.7V, no-load current is about 110ma, stall 1.54A Speed: load 50000rpm (per minute) Shaft: 0.8mm Shaft length: 8mm Wire length: 80mm (red and blue line), diameter 0.5mm; Weight: about 2.56g per Propeller Specifications: Length: 4.5 cm Bore: 0.7 mm Material: Plastic Weight: Approx 0.26 gms Color: Black / Orange Package Contents: 2 x Coreless Motors 2 x Propeller Blades",
+            "Motor Specifications: Size: 7 x 20MM Voltage: 3.7V, no-load current is about 110ma, stall 1.54A Speed: load 50000rpm (per minute) Shaft: 0.8mm Shaft length: 8mm Wire length: 80mm (red and blue line), diameter 0.5mm; Weight: about 2.56g per Propeller Specifications: Length: 4.5 cm Bore: 0.7 mm Material: Plastic Weight: Approx 0.26 gms Color: Black / Orange Package Contents: 2 x Coreless Motors 2 x Propeller Blades",
+            "#drone",
+            "#drone camera"
+          ],
+          "thumbs": [],
+          "sellerName": "AS electronics BD",
+          "sellerId": "700508115017",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "282793097_BD-1272594992",
+          "skuId": "1272594992",
+          "sku": "282793097_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "168",
+          "inStock": true,
+          "originalPrice": "229",
+          "clickTrace": "query:;nid:282793097;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:282793097_BD;price:168;client:desktop;supplier_id:700508115017;biz_source:h5_unknow;slot:16;utlog_bucket_id:470687;asc_category_id:9354;item_id:282793097;sku_id:1272594992;shop_id:127854;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "172 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "282793097_BD-1272594992"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F5e36fa45729ea6ba54ef4a7a28f16574.jpg&src=srp_findsimilar&item_id=282793097&sku_id=1272594992&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=168.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/2-mini-coreless-motor-with-propeller-blades-for-rc-aeroplane-helicopter-drone-drone-camera-i282793097.html",
+          "querystring": "priceCompare=skuId%3A1272594992%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A16800%3BvoucherPrice%3A16800%3BdisplayPrice%3A16800%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.25&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=172&price=168&review=24&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A282793097%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A282793097_BD%253Bprice%253A168%253Bclient%253Adesktop%253Bsupplier_id%253A700508115017%253Bbiz_source%253Ah5_unknow%253Bslot%253A16%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A282793097%253Bsku_id%253A1272594992%253Bshop_id%253A127854%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "High speed 51000 rpm 3.7V DC motor for toy car mini drone",
+          "nid": "362701470",
+          "itemId": "362701470",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 6",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/fcf433b66d8855a1651f31f9db1b0c87.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1789514832",
+            "x_item_ids": "362701470",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "140",
+            "x_object_id": "362701470"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 140",
+          "discount": "7% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [
+            "Speed: 58000 rpm",
+            "Rated voltage: 3.7 V",
+            "Rated current: 100mA"
+          ],
+          "thumbs": [],
+          "sellerName": "womensworld",
+          "sellerId": "1015766",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "362701470_BD-1789514832",
+          "skuId": "1789514832",
+          "sku": "362701470_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "140",
+          "inStock": true,
+          "originalPrice": "150",
+          "clickTrace": "query:;nid:362701470;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:362701470_BD;price:140;client:desktop;supplier_id:1015766;biz_source:h5_unknow;slot:17;utlog_bucket_id:470687;asc_category_id:9354;item_id:362701470;sku_id:1789514832;shop_id:21518;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "6 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "362701470_BD-1789514832"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Ffcf433b66d8855a1651f31f9db1b0c87.jpg&src=srp_findsimilar&item_id=362701470&sku_id=1789514832&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=140.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/51000-rpm-37v-dc-i362701470.html",
+          "querystring": "priceCompare=skuId%3A1789514832%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A14000%3BvoucherPrice%3A14000%3BdisplayPrice%3A14000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=6&price=1.4E%202&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A362701470%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A362701470_BD%253Bprice%253A140%253Bclient%253Adesktop%253Bsupplier_id%253A1015766%253Bbiz_source%253Ah5_unknow%253Bslot%253A17%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A362701470%253Bsku_id%253A1789514832%253Bshop_id%253A21518%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "802540P 1200mah Li-po Battery for Rc Toy Quadcopter Drone",
+          "nid": "287256694",
+          "itemId": "287256694",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/0072c7805dbeb1ab1160656875aeff20.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1286564205",
+            "x_item_ids": "287256694",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "950",
+            "x_object_id": "287256694"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 950",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [
+            "100% Brand-new",
+            "Item Name: Li-po Battery",
+            "One Cell Lithium Polymer Battery",
+            "Output: 3.7v 25C 1200mAh at nominal",
+            "Approx. wire length: 30mm",
+            "Built-in protection circuit PCM for prevent overcharging or over discharging.",
+            "High capacity, low inner resistance, long cycle life, low self-discharge.",
+            "Rapid charge-discharge cycle life up to more than 500 times.",
+            "Approx. Dimension: 47X26X8mm",
+            "Weight: 17-20gm"
+          ],
+          "thumbs": [],
+          "sellerName": "Uni-Tone",
+          "sellerId": "700507506110",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "287256694_BD-1286564205",
+          "skuId": "1286564205",
+          "sku": "287256694_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "950",
+          "inStock": true,
+          "clickTrace": "query:;nid:287256694;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:287256694_BD;price:950;client:desktop;supplier_id:700507506110;biz_source:h5_unknow;slot:18;utlog_bucket_id:470687;asc_category_id:9354;item_id:287256694;sku_id:1286564205;shop_id:93122;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "287256694_BD-1286564205"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F0072c7805dbeb1ab1160656875aeff20.jpg&src=srp_findsimilar&item_id=287256694&sku_id=1286564205&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=950.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/802540p-1200mah-li-po-battery-for-rc-toy-quadcopter-drone-i287256694.html",
+          "querystring": "priceCompare=skuId%3A1286564205%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A95000%3BvoucherPrice%3A95000%3BdisplayPrice%3A95000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=4&price=9.5E%202&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A287256694%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A287256694_BD%253Bprice%253A950%253Bclient%253Adesktop%253Bsupplier_id%253A700507506110%253Bbiz_source%253Ah5_unknow%253Bslot%253A18%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A287256694%253Bsku_id%253A1286564205%253Bshop_id%253A93122%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Quadcopter-1 * PDB Board\r\n\r\n1 * XT60 Connector-…",
+          "nid": "247873149",
+          "itemId": "247873149",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/c54b24a2710c5dba5424fa719d114b90.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1193869200",
+            "x_item_ids": "247873149",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "520",
+            "x_object_id": "247873149"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 520",
+          "discount": "42% Off",
+          "ratingScore": "4.666666666666667",
+          "review": "3",
+          "location": "Dhaka",
+          "description": [
+            "1.The PDB-XT60 has been engineered to provide the highest performance and reliability in a 36*52mm & 4 layers PCB."
+          ],
+          "thumbs": [],
+          "sellerName": "Sweet Home Mall",
+          "sellerId": "700509135011",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "247873149_BD-1193869200",
+          "skuId": "1193869200",
+          "sku": "247873149_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "520",
+          "inStock": true,
+          "originalPrice": "896",
+          "clickTrace": "query:;nid:247873149;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:247873149_BD;price:520;client:desktop;supplier_id:700509135011;biz_source:h5_unknow;slot:19;utlog_bucket_id:470687;asc_category_id:9354;item_id:247873149;sku_id:1193869200;shop_id:204292;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "8 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "247873149_BD-1193869200"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fc54b24a2710c5dba5424fa719d114b90.jpg&src=srp_findsimilar&item_id=247873149&sku_id=1193869200&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=520.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/quadcopter-1-pdb-board1-xt60-connector-i247873149.html",
+          "querystring": "priceCompare=skuId%3A1193869200%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A52000%3BvoucherPrice%3A52000%3BdisplayPrice%3A52000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.666666666666667&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=8&price=5.2E%202&review=3&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A247873149%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A247873149_BD%253Bprice%253A520%253Bclient%253Adesktop%253Bsupplier_id%253A700509135011%253Bbiz_source%253Ah5_unknow%253Bslot%253A19%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A247873149%253Bsku_id%253A1193869200%253Bshop_id%253A204292%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "BALCK Color 45mm Fan For Motor 1-Pair Fan Use For 720 Motor",
+          "nid": "178877910",
+          "itemId": "178877910",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/90869df39c0dd84a7ec1c7a0188e7f19.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1119920279",
+            "x_item_ids": "178877910",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "45",
+            "x_object_id": "178877910"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 45",
+          "discount": "42% Off",
+          "ratingScore": "4.4",
+          "review": "9",
+          "location": "Dhaka",
+          "description": [
+            "Material: Glass Fiber.",
+            "Total Length: 45 mm.",
+            "Propeller diameter: 6.5mm.",
+            "Propeller Center Hole: 0.75mm",
+            "Color:  Black &amp; Red.",
+            "Durable plastic construction",
+            "Strong and lightweight"
+          ],
+          "thumbs": [],
+          "sellerName": "Udvabony BD",
+          "sellerId": "700507287024",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "178877910_BD-1119920279",
+          "skuId": "1119920279",
+          "sku": "178877910_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "45",
+          "inStock": true,
+          "originalPrice": "77",
+          "clickTrace": "query:;nid:178877910;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:178877910_BD;price:45;client:desktop;supplier_id:700507287024;biz_source:h5_unknow;slot:20;utlog_bucket_id:470687;asc_category_id:9354;item_id:178877910;sku_id:1119920279;shop_id:94590;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "119 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "178877910_BD-1119920279"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F90869df39c0dd84a7ec1c7a0188e7f19.jpg&src=srp_findsimilar&item_id=178877910&sku_id=1119920279&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=45.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/balck-color-45mm-fan-for-motor-1-pair-fan-use-for-720-motor-i178877910.html",
+          "querystring": "priceCompare=skuId%3A1119920279%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A4500%3BvoucherPrice%3A4500%3BdisplayPrice%3A4500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.4&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=119&price=45&review=9&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A178877910%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A178877910_BD%253Bprice%253A45%253Bclient%253Adesktop%253Bsupplier_id%253A700507287024%253Bbiz_source%253Ah5_unknow%253Bslot%253A20%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A178877910%253Bsku_id%253A1119920279%253Bshop_id%253A94590%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "4Pcs Silicone Motor Protective Cover Cap Transportation Shield For Phantom 2",
+          "nid": "206537656",
+          "itemId": "206537656",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 6",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/b7b28ee0aa6e6c550cf07bc6da35c750.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1155785030",
+            "x_item_ids": "206537656",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "319",
+            "x_object_id": "206537656"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 319",
+          "discount": "22% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Overseas",
+          "description": [
+            "100% brand new and high quality.",
+            "4pcs Silicone motor protection cover cap for phantom 2 3",
+            "Transportation shield for phantom 2 3",
+            "Half transparent silicone material",
+            "Lightweight,durable"
+          ],
+          "thumbs": [],
+          "sellerName": "Fashion2U",
+          "sellerId": "700505553019",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "206537656_BD-1155785030",
+          "skuId": "1155785030",
+          "sku": "206537656_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "319",
+          "inStock": true,
+          "originalPrice": "407",
+          "clickTrace": "query:;nid:206537656;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:206537656_BD;price:319;client:desktop;supplier_id:700505553019;biz_source:h5_unknow;slot:21;utlog_bucket_id:470687;asc_category_id:9354;item_id:206537656;sku_id:1155785030;shop_id:60755;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "206537656_BD-1155785030"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fb7b28ee0aa6e6c550cf07bc6da35c750.jpg&src=srp_findsimilar&item_id=206537656&sku_id=1155785030&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=319.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/4pcs-silicone-motor-protective-cover-cap-transportation-shield-for-phantom-2-i206537656.html",
+          "querystring": "priceCompare=skuId%3A1155785030%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A31900%3BvoucherPrice%3A31900%3BdisplayPrice%3A31900%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=2&price=319&review=&location=Overseas&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A206537656%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A206537656_BD%253Bprice%253A319%253Bclient%253Adesktop%253Bsupplier_id%253A700505553019%253Bbiz_source%253Ah5_unknow%253Bslot%253A21%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A206537656%253Bsku_id%253A1155785030%253Bshop_id%253A60755%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "FLYSKY FS-I6 2.4G 10 CH RC TRANSMITTER WITH FS-IA6 RECEIVER",
+          "nid": "329997812",
+          "itemId": "329997812",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/25213bfd09f389ecc4adc91d8967dd28.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1608354974",
+            "x_item_ids": "329997812",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "10290",
+            "x_object_id": "329997812"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 10,290",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [
+            "Product Model: FS- i6Channels: 6 Models: fixed wing / glider / helicopter / boatWireless frequency: 2.4GHzTransmission power: &lt;20&gt;Wireless protocol: AFHDS 2ARange: 500 ～ 1500m (in the air)Channel resolution: 4096Battery: 1.5AA * 4Charging port: NoneLow voltage alarm: ＜ 4.2VAntenna type: dual antennaDisplay: STN Transflective display, LCD 128×64 dot matrix,Language: Chinese and EnglishData port: PS / 2 (PPM)Temperature range: -10 ℃ — + 60 ℃Humidity range: 20% -95%Online Update: YesRemote Control Color: BlackDimensions: 174x89x190mmWeight: 392gCertification: CE, RCM, PAHS, FCC ID: N4ZFLYSKYI6"
+          ],
+          "thumbs": [],
+          "sellerName": "DishanTech BD",
+          "sellerId": "700579184257",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "329997812_BD-1608354974",
+          "skuId": "1608354974",
+          "sku": "329997812_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "10290",
+          "inStock": true,
+          "clickTrace": "query:;nid:329997812;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:329997812_BD;price:10290;client:desktop;supplier_id:700579184257;biz_source:h5_unknow;slot:22;utlog_bucket_id:470687;asc_category_id:9354;item_id:329997812;sku_id:1608354974;shop_id:420430;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "329997812_BD-1608354974"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F25213bfd09f389ecc4adc91d8967dd28.jpg&src=srp_findsimilar&item_id=329997812&sku_id=1608354974&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=10290.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/flysky-fs-i6-24g-10-ch-rc-fs-ia6-i329997812.html",
+          "querystring": "priceCompare=skuId%3A1608354974%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A1029000%3BvoucherPrice%3A1029000%3BdisplayPrice%3A1029000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=1&price=1.029E%204&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A329997812%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A329997812_BD%253Bprice%253A10290%253Bclient%253Adesktop%253Bsupplier_id%253A700579184257%253Bbiz_source%253Ah5_unknow%253Bslot%253A22%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A329997812%253Bsku_id%253A1608354974%253Bshop_id%253A420430%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Upgraded Lithium Battery Compatible with Eachine DJ1 Drone  RC Quadcopter Accessories",
+          "nid": "270658550",
+          "itemId": "270658550",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/3c7cf9f067590f28a975ada50eb5419c.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1478720915",
+            "x_item_ids": "270658550",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "550",
+            "x_object_id": "270658550"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 550",
+          "discount": "45% Off",
+          "ratingScore": "4.8",
+          "review": "5",
+          "location": "Dhaka",
+          "description": [
+            "Specification: Material:ABS",
+            "Size:Approx.6.3x2.4x1cm/2.64x0.94x0.39 cm",
+            "Color:Black",
+            "Package Includes: 1x Drone Battery"
+          ],
+          "thumbs": [],
+          "sellerName": "Friends & Corporation",
+          "sellerId": "700507968152",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "270658550_BD-1478720915",
+          "skuId": "1478720915",
+          "sku": "270658550_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "550",
+          "inStock": true,
+          "originalPrice": "999",
+          "clickTrace": "query:;nid:270658550;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:270658550_BD;price:550;client:desktop;supplier_id:700507968152;biz_source:h5_unknow;slot:23;utlog_bucket_id:470687;asc_category_id:9354;item_id:270658550;sku_id:1478720915;shop_id:122940;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "159 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "270658550_BD-1478720915"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F3c7cf9f067590f28a975ada50eb5419c.jpg&src=srp_findsimilar&item_id=270658550&sku_id=1478720915&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=550.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/eachine-dj1-rc-i270658550.html",
+          "querystring": "priceCompare=skuId%3A1478720915%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A55000%3BvoucherPrice%3A55000%3BdisplayPrice%3A55000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.8&freeshipping=1&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=159&price=5.5E%202&review=5&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A270658550%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A270658550_BD%253Bprice%253A550%253Bclient%253Adesktop%253Bsupplier_id%253A700507968152%253Bbiz_source%253Ah5_unknow%253Bslot%253A23%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A270658550%253Bsku_id%253A1478720915%253Bshop_id%253A122940%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Ultra High Speed Core Less Motors blade 4 pcs 55mm",
+          "nid": "151820099",
+          "itemId": "151820099",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/e71b7053e7dd51beb17b9ebf824ed675.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1079128860",
+            "x_item_ids": "151820099",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "95",
+            "x_object_id": "151820099"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 95",
+          "discount": "21% Off",
+          "ratingScore": "4.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [
+            "blade size: 5mm",
+            "Weight: about 1.8g",
+            "Rated voltage: 3.7 V",
+            "Motor position: all position"
+          ],
+          "thumbs": [],
+          "sellerName": "Sunlight",
+          "sellerId": "1025197",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "151820099_BD-1079128860",
+          "skuId": "1079128860",
+          "sku": "151820099_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "95",
+          "inStock": true,
+          "originalPrice": "120",
+          "clickTrace": "query:;nid:151820099;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:151820099_BD;price:95;client:desktop;supplier_id:1025197;biz_source:h5_unknow;slot:24;utlog_bucket_id:470687;asc_category_id:9354;item_id:151820099;sku_id:1079128860;shop_id:31376;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "34 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "151820099_BD-1079128860"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fe71b7053e7dd51beb17b9ebf824ed675.jpg&src=srp_findsimilar&item_id=151820099&sku_id=1079128860&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=95.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/ultra-high-speed-core-less-motors-blade-4-pcs-55mm-i151820099.html",
+          "querystring": "priceCompare=skuId%3A1079128860%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A9500%3BvoucherPrice%3A9500%3BdisplayPrice%3A9500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=34&price=95&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A151820099%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A151820099_BD%253Bprice%253A95%253Bclient%253Adesktop%253Bsupplier_id%253A1025197%253Bbiz_source%253Ah5_unknow%253Bslot%253A24%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A151820099%253Bsku_id%253A1079128860%253Bshop_id%253A31376%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "4Pcs/Lot Gemfan Hurricane 51466 Propeller for FPV Racing",
+          "nid": "291408141",
+          "itemId": "291408141",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/14a46a154655ac3a386b289a4942b161.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1296274741",
+            "x_item_ids": "291408141",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "450",
+            "x_object_id": "291408141"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 450",
+          "discount": "18% Off",
+          "ratingScore": "5.0",
+          "review": "6",
+          "location": "Dhaka",
+          "description": [
+            "Material: Polycarbonate",
+            "Color: Blue/ Pink/ Yellow/ Black",
+            "Length: 5.1\"",
+            "Pitch: 4.66\"",
+            "Hub Thickness: 7mm",
+            "POPO: Yes",
+            "Weight: 4.13g",
+            "Get ready to race with Gemfan's Hurricane 51466 Durable 3-Blade Propeller.",
+            "The 51466 Hurricane series was designed for agile flight at high speed with its incredibly low weight at just over 4g.",
+            "Compared to the 51499 Hurricane, the 51466 has a smaller blade profile and excels in higher RPMs due to the lighter weight and smaller paddle width across the blade.",
+            "Even though it's light, the Hurricane is incredibly durable. Even if you bend a prop, there is a good chance you can bend it back and get back to flying."
+          ],
+          "thumbs": [],
+          "sellerName": "HobbyrcBD",
+          "sellerId": "700504932149",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "291408141_BD-1296274741",
+          "skuId": "1296274741",
+          "sku": "291408141_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "450",
+          "inStock": true,
+          "originalPrice": "550",
+          "clickTrace": "query:;nid:291408141;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:291408141_BD;price:450;client:desktop;supplier_id:700504932149;biz_source:h5_unknow;slot:25;utlog_bucket_id:470687;asc_category_id:9354;item_id:291408141;sku_id:1296274741;shop_id:52640;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "35 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "291408141_BD-1296274741"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F14a46a154655ac3a386b289a4942b161.jpg&src=srp_findsimilar&item_id=291408141&sku_id=1296274741&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=450.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/4pcslot-gemfan-hurricane-51466-propeller-for-fpv-racing-i291408141.html",
+          "querystring": "priceCompare=skuId%3A1296274741%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A45000%3BvoucherPrice%3A45000%3BdisplayPrice%3A45000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=35&price=4.5E%202&review=6&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A291408141%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A291408141_BD%253Bprice%253A450%253Bclient%253Adesktop%253Bsupplier_id%253A700504932149%253Bbiz_source%253Ah5_unknow%253Bslot%253A25%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A291408141%253Bsku_id%253A1296274741%253Bshop_id%253A52640%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "8 pieces Metal diecast car set for baby 8pc",
+          "nid": "298289339",
+          "itemId": "298289339",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/c4d4250c25416bbc601a6c82ee08a42a.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1323808924",
+            "x_item_ids": "298289339",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "115",
+            "x_object_id": "298289339"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 115",
+          "discount": "54% Off",
+          "ratingScore": "2.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [
+            "8 pieces Metal diecast car set for baby 8"
+          ],
+          "thumbs": [],
+          "sellerName": "Safia Fashion House",
+          "sellerId": "700533762356",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "298289339_BD-1323808924",
+          "skuId": "1323808924",
+          "sku": "298289339_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "115",
+          "inStock": true,
+          "originalPrice": "250",
+          "clickTrace": "query:;nid:298289339;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:298289339_BD;price:115;client:desktop;supplier_id:700533762356;biz_source:h5_unknow;slot:26;utlog_bucket_id:470687;asc_category_id:9354;item_id:298289339;sku_id:1323808924;shop_id:342108;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "9 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "298289339_BD-1323808924"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fc4d4250c25416bbc601a6c82ee08a42a.jpg&src=srp_findsimilar&item_id=298289339&sku_id=1323808924&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=115.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/8-8-i298289339.html",
+          "querystring": "priceCompare=skuId%3A1323808924%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A11500%3BvoucherPrice%3A11500%3BdisplayPrice%3A11500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=2.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=9&price=115&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A298289339%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A298289339_BD%253Bprice%253A115%253Bclient%253Adesktop%253Bsupplier_id%253A700533762356%253Bbiz_source%253Ah5_unknow%253Bslot%253A26%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A298289339%253Bsku_id%253A1323808924%253Bshop_id%253A342108%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "NCANRUI 2X PDB XT60 Power Distribution Board BEC 5V 2A 12V 0.5A with XT60 Plug for DIY Quadcopter Output Support 6 ESC",
+          "nid": "255780051",
+          "itemId": "255780051",
+          "icons": [
+            {
+              "domClass": "116225",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 15",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/55434395b2439a838934a35f7c86e606.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1203595149",
+            "x_item_ids": "255780051",
+            "iconList": "116225;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "744",
+            "x_object_id": "255780051"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 744",
+          "discount": "43% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "NCANRUI",
+          "sellerId": "700507491130",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "255780051_BD-1203595149",
+          "skuId": "1203595149",
+          "sku": "255780051_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "744",
+          "inStock": true,
+          "originalPrice": "1310",
+          "clickTrace": "query:;nid:255780051;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:255780051_BD;price:744;client:desktop;supplier_id:700507491130;biz_source:h5_unknow;slot:27;utlog_bucket_id:470687;asc_category_id:9354;item_id:255780051;sku_id:1203595149;shop_id:95751;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "255780051_BD-1203595149"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F55434395b2439a838934a35f7c86e606.jpg&src=srp_findsimilar&item_id=255780051&sku_id=1203595149&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=744.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/ncanrui-2x-pdb-xt60-power-distribution-board-bec-5v-2a-12v-05a-with-xt60-plug-for-diy-quadcopter-output-support-6-esc-i255780051.html",
+          "querystring": "priceCompare=skuId%3A1203595149%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A74400%3BvoucherPrice%3A74400%3BdisplayPrice%3A74400%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=4&price=744&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A255780051%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A255780051_BD%253Bprice%253A744%253Bclient%253Adesktop%253Bsupplier_id%253A700507491130%253Bbiz_source%253Ah5_unknow%253Bslot%253A27%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A255780051%253Bsku_id%253A1203595149%253Bshop_id%253A95751%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "TCPH 4 Pcs Motors 2 Pairs A&B CCW CW For SYMA X5C X5C-1 X5 RC Quadcopter Drone Wholesale",
+          "nid": "247633604",
+          "itemId": "247633604",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 18",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/903788a862eeefc27858abb103c068eb.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1193477556",
+            "x_item_ids": "247633604",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "923",
+            "x_object_id": "247633604"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 923",
+          "ratingScore": "3.0",
+          "review": "2",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "CHEN SHOP STORE",
+          "sellerId": "700514367201",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "247633604_BD-1193477556",
+          "skuId": "1193477556",
+          "sku": "247633604_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "923",
+          "inStock": true,
+          "clickTrace": "query:;nid:247633604;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:247633604_BD;price:923;client:desktop;supplier_id:700514367201;biz_source:h5_unknow;slot:28;utlog_bucket_id:470687;asc_category_id:9354;item_id:247633604;sku_id:1193477556;shop_id:245573;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "10 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "247633604_BD-1193477556"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F903788a862eeefc27858abb103c068eb.jpg&src=srp_findsimilar&item_id=247633604&sku_id=1193477556&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=923.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/tcph-4-pcs-motors-2-pairs-ab-ccw-cw-for-syma-x5c-x5c-1-x5-rc-quadcopter-drone-wholesale-i247633604.html",
+          "querystring": "priceCompare=skuId%3A1193477556%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A92300%3BvoucherPrice%3A92300%3BdisplayPrice%3A92300%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=10&price=923&review=2&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A247633604%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A247633604_BD%253Bprice%253A923%253Bclient%253Adesktop%253Bsupplier_id%253A700514367201%253Bbiz_source%253Ah5_unknow%253Bslot%253A28%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A247633604%253Bsku_id%253A1193477556%253Bshop_id%253A245573%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "3300 mAh Red Volcano li-poly battery for drone, RC car, Robotics project",
+          "nid": "323714698",
+          "itemId": "323714698",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 65",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://bd-live-21.slatic.net/kf/S749570750ff647f1b0acbefe187adbc73.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1544378216",
+            "x_item_ids": "323714698",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "4200",
+            "x_object_id": "323714698"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 4,200",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Sylhet",
+          "description": [
+            "1. 3300 mAh Hi quality, High discharge rate battery",
+            "2. 35C rating",
+            "3. Xt60 connector for upto 60Amp current flow"
+          ],
+          "thumbs": [],
+          "sellerName": "RoboNut BD",
+          "sellerId": "700522383225",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "323714698_BD-1544378216",
+          "skuId": "1544378216",
+          "sku": "323714698_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "4200",
+          "inStock": true,
+          "clickTrace": "query:;nid:323714698;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:323714698_BD;price:4200;client:desktop;supplier_id:700522383225;biz_source:h5_unknow;slot:29;utlog_bucket_id:470687;asc_category_id:9354;item_id:323714698;sku_id:1544378216;shop_id:276279;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "323714698_BD-1544378216"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fbd-live-21.slatic.net%2Fkf%2FS749570750ff647f1b0acbefe187adbc73.jpg&src=srp_findsimilar&item_id=323714698&sku_id=1544378216&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=4200.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/3300-mah-rc-i323714698.html",
+          "querystring": "priceCompare=skuId%3A1544378216%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A420000%3BvoucherPrice%3A420000%3BdisplayPrice%3A420000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=3&price=4.2E%203&review=1&location=Sylhet&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A323714698%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A323714698_BD%253Bprice%253A4200%253Bclient%253Adesktop%253Bsupplier_id%253A700522383225%253Bbiz_source%253Ah5_unknow%253Bslot%253A29%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A323714698%253Bsku_id%253A1544378216%253Bshop_id%253A276279%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "3.7 V Lipo Battery Charger USB Interface",
+          "nid": "219794178",
+          "itemId": "219794178",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/20be6cdd3a8bb109acb789e48d864573.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1167286600",
+            "x_item_ids": "219794178",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "255",
+            "x_object_id": "219794178"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 255",
+          "discount": "2% Off",
+          "ratingScore": "3.6666666666666665",
+          "review": "3",
+          "location": "Dhaka",
+          "description": [
+            "– 100% Brand new & high quality",
+            "– It can charge 5 batteries at the same time, which saves your charging time a lot",
+            "– It provides overcharge & short circuit protection, over charge protection for every charging port",
+            "– Wide applicability, suitable for most 4 axis RC vehicles",
+            "– USB port makes it easier to connect with computer Laptop or adapter"
+          ],
+          "thumbs": [],
+          "sellerName": "Orbit BD",
+          "sellerId": "700509738009",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "219794178_BD-1167286600",
+          "skuId": "1167286600",
+          "sku": "219794178_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "255",
+          "inStock": true,
+          "originalPrice": "260",
+          "clickTrace": "query:;nid:219794178;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:219794178_BD;price:255;client:desktop;supplier_id:700509738009;biz_source:h5_unknow;slot:30;utlog_bucket_id:470687;asc_category_id:9354;item_id:219794178;sku_id:1167286600;shop_id:215935;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "7 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "219794178_BD-1167286600"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F20be6cdd3a8bb109acb789e48d864573.jpg&src=srp_findsimilar&item_id=219794178&sku_id=1167286600&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=255.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/37-v-lipo-battery-charger-usb-interface-i219794178.html",
+          "querystring": "priceCompare=skuId%3A1167286600%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A25500%3BvoucherPrice%3A25500%3BdisplayPrice%3A25500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=3.6666666666666665&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=7&price=255&review=3&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A219794178%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A219794178_BD%253Bprice%253A255%253Bclient%253Adesktop%253Bsupplier_id%253A700509738009%253Bbiz_source%253Ah5_unknow%253Bslot%253A30%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A219794178%253Bsku_id%253A1167286600%253Bshop_id%253A215935%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Bwine Drone Battery Replacement F7, 11.1V 2600mAh/28.86Wh Lithium Rechargeable Battery with USB Cable",
+          "nid": "329027841",
+          "itemId": "329027841",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "120555",
+              "type": "img",
+              "group": "3",
+              "showType": "0"
+            }
+          ],
+          "image": "https://bd-live-21.slatic.net/kf/Sfd7b66fc43574cda864bfc5412d3fcffr.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1608978405",
+            "x_item_ids": "329027841",
+            "iconList": "116050;120555",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "7580",
+            "x_object_id": "329027841"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 7,580",
+          "discount": "20% Off",
+          "ratingScore": "",
+          "review": "",
+          "location": "Dhaka",
+          "description": [
+            "    pre {        white-space: pre-wrap;    }• Bwine Drone Battery Replacement F7• 11.1V 2600mAh/28.86Wh Lithium Rechargeable Battery• USB Cable included• Suitable for ages 8-11 years• Compatible with Drones &amp; Accessories• Made of durable PVC materialMade in China. "
+          ],
+          "thumbs": [],
+          "sellerName": "Toys park 1653458034",
+          "sellerId": "700516113160",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "329027841_BD-1608978405",
+          "skuId": "1608978405",
+          "sku": "329027841_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "7580",
+          "inStock": true,
+          "originalPrice": "9500",
+          "clickTrace": "query:;nid:329027841;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:329027841_BD;price:7580;client:desktop;supplier_id:700516113160;biz_source:h5_unknow;slot:31;utlog_bucket_id:470687;asc_category_id:9354;item_id:329027841;sku_id:1608978405;shop_id:251448;templateInfo:1103_B_L#",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "329027841_BD-1608978405"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fbd-live-21.slatic.net%2Fkf%2FSfd7b66fc43574cda864bfc5412d3fcffr.jpg&src=srp_findsimilar&item_id=329027841&sku_id=1608978405&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=7580.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/f7-111v-2600mah2886wh-usb-i329027841.html",
+          "querystring": "priceCompare=skuId%3A1608978405%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A758000%3BvoucherPrice%3A758000%3BdisplayPrice%3A758000%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=2&price=7.58E%203&review=&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A329027841%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A329027841_BD%253Bprice%253A7580%253Bclient%253Adesktop%253Bsupplier_id%253A700516113160%253Bbiz_source%253Ah5_unknow%253Bslot%253A31%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A329027841%253Bsku_id%253A1608978405%253Bshop_id%253A251448%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "COD☭4pcs CW/CCW Propeller Pro Props Blade RC Great Quadcopter Spare Parts for SG906 Drone",
+          "nid": "247643460",
+          "itemId": "247643460",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 13",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/0bbccd263bb33f9f4d61cc4efd3e6dfd.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1193491894",
+            "x_item_ids": "247643460",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "626",
+            "x_object_id": "247643460"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 626",
+          "ratingScore": "4.166666666666667",
+          "review": "6",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "CHEN SHOP STORE",
+          "sellerId": "700514367201",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "247643460_BD-1193491894",
+          "skuId": "1193491894",
+          "sku": "247643460_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "626",
+          "inStock": true,
+          "clickTrace": "query:;nid:247643460;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:247643460_BD;price:626;client:desktop;supplier_id:700514367201;biz_source:h5_unknow;slot:32;utlog_bucket_id:470687;asc_category_id:9354;item_id:247643460;sku_id:1193491894;shop_id:245573;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "25 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "247643460_BD-1193491894"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F0bbccd263bb33f9f4d61cc4efd3e6dfd.jpg&src=srp_findsimilar&item_id=247643460&sku_id=1193491894&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=626.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/cod4pcs-cwccw-propeller-pro-props-blade-rc-great-quadcopter-spare-parts-for-sg906-drone-i247643460.html",
+          "querystring": "priceCompare=skuId%3A1193491894%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A62600%3BvoucherPrice%3A62600%3BdisplayPrice%3A62600%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.166666666666667&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=25&price=626&review=6&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A247643460%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A247643460_BD%253Bprice%253A626%253Bclient%253Adesktop%253Bsupplier_id%253A700514367201%253Bbiz_source%253Ah5_unknow%253Bslot%253A32%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A247643460%253Bsku_id%253A1193491894%253Bshop_id%253A245573%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Universal Double Charger For 3.7V 18650 16340 14500 Li-Ion Rechargeable Battery - Battery",
+          "nid": "180087260",
+          "itemId": "180087260",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/1965175e45c3cd2c931967e360491c58.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1127062261",
+            "x_item_ids": "180087260",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "169",
+            "x_object_id": "180087260"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 169",
+          "discount": "52% Off",
+          "ratingScore": "4.1847133757961785",
+          "review": "314",
+          "location": "Dhaka",
+          "description": [
+            "Universal Battery Charger",
+            "Input: Ac 220v Dc 47-63Hz",
+            "Output: 3.7v/450MA",
+            "End of Charge Voltage: 4.2v +_ 1%",
+            "Suitable for Li-ion Single Battery Charger for 18650/16340/14500/17670 Batteries",
+            "#battery"
+          ],
+          "thumbs": [],
+          "sellerName": "YR Electronics",
+          "sellerId": "700508298141",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "180087260_BD-1127062261",
+          "skuId": "1127062261",
+          "sku": "180087260_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "169",
+          "inStock": true,
+          "originalPrice": "350",
+          "clickTrace": "query:;nid:180087260;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:180087260_BD;price:169;client:desktop;supplier_id:700508298141;biz_source:h5_unknow;slot:33;utlog_bucket_id:470687;asc_category_id:9354;item_id:180087260;sku_id:1127062261;shop_id:142102;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "1.5K sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "180087260_BD-1127062261"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F1965175e45c3cd2c931967e360491c58.jpg&src=srp_findsimilar&item_id=180087260&sku_id=1127062261&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=169.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/universal-double-charger-for-37v-18650-16340-14500-li-ion-rechargeable-battery-battery-i180087260.html",
+          "querystring": "priceCompare=skuId%3A1127062261%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A16900%3BvoucherPrice%3A16900%3BdisplayPrice%3A16900%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.1847133757961785&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=1458&price=169&review=314&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A180087260%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A180087260_BD%253Bprice%253A169%253Bclient%253Adesktop%253Bsupplier_id%253A700508298141%253Bbiz_source%253Ah5_unknow%253Bslot%253A33%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A180087260%253Bsku_id%253A1127062261%253Bshop_id%253A142102%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "E58 M68 S168 CW CCW Motor RC Drone Quadcopter Spare Parts Replacement Kit Accessories,1PCS Red Blue Line",
+          "nid": "247636866",
+          "itemId": "247636866",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 13",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/ddb4d6a35e8fc02ac8e9cb27bd32604c.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1193493042",
+            "x_item_ids": "247636866",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "626",
+            "x_object_id": "247636866"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 626",
+          "ratingScore": "4.6",
+          "review": "5",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "CHEN SHOP STORE",
+          "sellerId": "700514367201",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "247636866_BD-1193493042",
+          "skuId": "1193493042",
+          "sku": "247636866_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "626",
+          "inStock": true,
+          "clickTrace": "query:;nid:247636866;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:247636866_BD;price:626;client:desktop;supplier_id:700514367201;biz_source:h5_unknow;slot:34;utlog_bucket_id:470687;asc_category_id:9354;item_id:247636866;sku_id:1193493042;shop_id:245573;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "44 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "247636866_BD-1193493042"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fddb4d6a35e8fc02ac8e9cb27bd32604c.jpg&src=srp_findsimilar&item_id=247636866&sku_id=1193493042&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=626.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/e58-m68-cw-ccw-motor-rc-drone-quadcopter-spare-parts-replacement-kit-accessories1pcs-red-blue-line-i247636866.html",
+          "querystring": "priceCompare=skuId%3A1193493042%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A62600%3BvoucherPrice%3A62600%3BdisplayPrice%3A62600%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.6&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=44&price=626&review=5&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A247636866%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A247636866_BD%253Bprice%253A626%253Bclient%253Adesktop%253Bsupplier_id%253A700514367201%253Bbiz_source%253Ah5_unknow%253Bslot%253A34%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A247636866%253Bsku_id%253A1193493042%253Bshop_id%253A245573%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "Fine Toy Rc 720 Motor Black + White Wire Model Ultra-high-speed Strong Magnetic Large Torque Coreless Motor",
+          "nid": "143888222",
+          "itemId": "143888222",
+          "icons": [
+            {
+              "domClass": "116225",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/87219933ef19a708cbee29babf36775f.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1068358060",
+            "x_item_ids": "143888222",
+            "iconList": "116225",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "359",
+            "x_object_id": "143888222"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 359",
+          "discount": "10% Off",
+          "ratingScore": "4.2",
+          "review": "5",
+          "location": "Dhaka",
+          "description": [
+            "Certification: CCC, Type: Micro Motor, Commutation: Brush, Protect Feature: Totally Enclosed, Speed(RPM): 45000 RPM, Continuous Curt(A): 0.10 A, Output Power: big power, Voltage(V): 3.7V, Model Number: 720, Usage: Car,Fan, Torque: no test, Efficiency: 45000 RPM, Construction: coreless motors, Usage: Rc Helicopter, Unit Type: piece, Package Weight: , Package Siz"
+          ],
+          "thumbs": [],
+          "sellerName": "Deluxe",
+          "sellerId": "1022035",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "143888222_BD-1068358060",
+          "skuId": "1068358060",
+          "sku": "143888222_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "359",
+          "inStock": true,
+          "originalPrice": "399",
+          "clickTrace": "query:;nid:143888222;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:143888222_BD;price:359;client:desktop;supplier_id:1022035;biz_source:h5_unknow;slot:35;utlog_bucket_id:470687;asc_category_id:9354;item_id:143888222;sku_id:1068358060;shop_id:28256;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "55 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "143888222_BD-1068358060"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F87219933ef19a708cbee29babf36775f.jpg&src=srp_findsimilar&item_id=143888222&sku_id=1068358060&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=359.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/rc-720-i143888222.html",
+          "querystring": "priceCompare=skuId%3A1068358060%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A35900%3BvoucherPrice%3A35900%3BdisplayPrice%3A35900%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=4.2&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=55&price=359&review=5&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A143888222%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A143888222_BD%253Bprice%253A359%253Bclient%253Adesktop%253Bsupplier_id%253A1022035%253Bbiz_source%253Ah5_unknow%253Bslot%253A35%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A143888222%253Bsku_id%253A1068358060%253Bshop_id%253A28256%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "B3 Pro Compact Charger  for 2s - 3s LiPo Battery",
+          "nid": "128680242",
+          "itemId": "128680242",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/1fad95a6b6f9c93df292430ca8a3282b.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1048518670",
+            "x_item_ids": "128680242",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "495",
+            "x_object_id": "128680242"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 495",
+          "discount": "10% Off",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Dhaka",
+          "description": [
+            "100% Brand New and high quality",
+            "Made of plastic material",
+            "Dimensions: 95x55x35 mm",
+            "Number of batteries: 2-3cells",
+            "Input voltage: 110-240 V AC",
+            "Maximum load current: 1.5A (2 s) 1A (3 s)",
+            "Charging display: through three LED lights, red and green",
+            "LED indicator shows: wait: green, charging: red, full: green, failure: flashing red Easy and convenient to use"
+          ],
+          "thumbs": [],
+          "sellerName": "MA International Ltd",
+          "sellerId": "1041857",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "128680242_BD-1048518670",
+          "skuId": "1048518670",
+          "sku": "128680242_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "495",
+          "inStock": true,
+          "originalPrice": "550",
+          "clickTrace": "query:;nid:128680242;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:128680242_BD;price:495;client:desktop;supplier_id:1041857;biz_source:h5_unknow;slot:36;utlog_bucket_id:470687;asc_category_id:9354;item_id:128680242;sku_id:1048518670;shop_id:47588;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "11 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "128680242_BD-1048518670"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F1fad95a6b6f9c93df292430ca8a3282b.jpg&src=srp_findsimilar&item_id=128680242&sku_id=1048518670&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=495.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/2s-3s-lipo-b3-pro-i128680242.html",
+          "querystring": "priceCompare=skuId%3A1048518670%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A49500%3BvoucherPrice%3A49500%3BdisplayPrice%3A49500%3BsinglePromotionId%3A-1%3BsingleToolCode%3AmockedSalePrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=11&price=495&review=1&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A128680242%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A128680242_BD%253Bprice%253A495%253Bclient%253Adesktop%253Bsupplier_id%253A1041857%253Bbiz_source%253Ah5_unknow%253Bslot%253A36%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A128680242%253Bsku_id%253A1048518670%253Bshop_id%253A47588%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "2pcs DC 4.2V 615 6x15mm Micro Coreless Motor With 2pcs Propeller High Speed Mini Drones",
+          "nid": "291309094",
+          "itemId": "291309094",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            },
+            {
+              "domClass": "116038",
+              "text": "Coins save ৳ 9",
+              "type": "text",
+              "group": "2",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/4327feace45d100fae6c6ffedc35ae54.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1296115818",
+            "x_item_ids": "291309094",
+            "iconList": "116050;116038",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "220",
+            "x_object_id": "291309094"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 220",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Dhaka",
+          "description": [
+            "Advantage of 3.7V DC motor for toy car :1) Energy-saving:High energy conversion efficiency,more than 70%. 2) Fast Response:Rapid starting and braking with fast response, mechanincal time constant isless than 28 milliseconds. Some can reach 10ms or less. 3) Reliable Operational Stability: Operates quietly and quickly with high efficiency and low resistance. 4) Low Noise Starting and braking quietly, running with low noise. 5) High Speed The rpm can reach 4500~51000&plusmn;10%. 6) DurableRunning stably and reliably, can keep working for longtime."
+          ],
+          "thumbs": [],
+          "sellerName": "Aysha Online Stores",
+          "sellerId": "700521072374",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "291309094_BD-1296115818",
+          "skuId": "1296115818",
+          "sku": "291309094_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "220",
+          "inStock": true,
+          "clickTrace": "query:;nid:291309094;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:291309094_BD;price:220;client:desktop;supplier_id:700521072374;biz_source:h5_unknow;slot:37;utlog_bucket_id:470687;asc_category_id:9354;item_id:291309094;sku_id:1296115818;shop_id:271568;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "11 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "291309094_BD-1296115818"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F4327feace45d100fae6c6ffedc35ae54.jpg&src=srp_findsimilar&item_id=291309094&sku_id=1296115818&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=220.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/2-dc-42v-615-6x15mm-2-i291309094.html",
+          "querystring": "priceCompare=skuId%3A1296115818%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A22000%3BvoucherPrice%3A22000%3BdisplayPrice%3A22000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=11&price=2.2E%202&review=1&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A291309094%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A291309094_BD%253Bprice%253A220%253Bclient%253Adesktop%253Bsupplier_id%253A700521072374%253Bbiz_source%253Ah5_unknow%253Bslot%253A37%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A291309094%253Bsku_id%253A1296115818%253Bshop_id%253A271568%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "50k rpm High Speed 180 Motor",
+          "nid": "148664612",
+          "itemId": "148664612",
+          "icons": [],
+          "image": "https://static-01.daraz.com.bd/p/167196c0d8fcd2888ffd3d82235cbb3d.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1074750460",
+            "x_item_ids": "148664612",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "135",
+            "x_object_id": "148664612"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 135",
+          "ratingScore": "5.0",
+          "review": "4",
+          "location": "Dhaka",
+          "description": [],
+          "thumbs": [],
+          "sellerName": "Eva Sky Net",
+          "sellerId": "700506240021",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "148664612_BD-1074750460",
+          "skuId": "1074750460",
+          "sku": "148664612_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "135",
+          "inStock": true,
+          "clickTrace": "query:;nid:148664612;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:148664612_BD;price:135;client:desktop;supplier_id:700506240021;biz_source:h5_unknow;slot:38;utlog_bucket_id:470687;asc_category_id:9354;item_id:148664612;sku_id:1074750460;shop_id:70130;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "27 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "148664612_BD-1074750460"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2F167196c0d8fcd2888ffd3d82235cbb3d.jpg&src=srp_findsimilar&item_id=148664612&sku_id=1074750460&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=135.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/50k-rpm-180-i148664612.html",
+          "querystring": "priceCompare=skuId%3A1074750460%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A13500%3BvoucherPrice%3A13500%3BdisplayPrice%3A13500%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=27&price=135&review=4&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A148664612%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A148664612_BD%253Bprice%253A135%253Bclient%253Adesktop%253Bsupplier_id%253A700506240021%253Bbiz_source%253Ah5_unknow%253Bslot%253A38%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A148664612%253Bsku_id%253A1074750460%253Bshop_id%253A70130%253BtemplateInfo%253A1103_B_L%2523"
+        },
+        {
+          "name": "XT60 Male+Female Connector (Pair) For RC Lipo Battery",
+          "nid": "380072262",
+          "itemId": "380072262",
+          "icons": [
+            {
+              "domClass": "116050",
+              "type": "img",
+              "group": "6",
+              "showType": "0"
+            }
+          ],
+          "image": "https://static-01.daraz.com.bd/p/b45b0b9cdc16285b5b202d97399e8cce.jpg",
+          "isSmartImage": false,
+          "utLogMap": {
+            "srp_name": "LazadaMainSrp",
+            "x_object_type": "item",
+            "src": "organic",
+            "trafficType": "organic",
+            "x_sku_ids": "1906649481",
+            "x_item_ids": "380072262",
+            "iconList": "116050",
+            "SN": "7aef099b8702ea5772a03bee69382615",
+            "current_price": "60",
+            "x_object_id": "380072262"
+          },
+          "originalPriceShow": "",
+          "priceShow": "৳ 60",
+          "ratingScore": "5.0",
+          "review": "1",
+          "location": "Dhaka",
+          "description": [
+            "1 Unit = 1 Set (Male + Female part)",
+            "Application scope: battery, electronic speed controller, and charger.",
+            "Amperage rating: 30Amps",
+            "Bullet connector: 3.5mm",
+            "Weight: 6.7g/se"
+          ],
+          "thumbs": [],
+          "sellerName": "HobbyrcBD",
+          "sellerId": "700504932149",
+          "brandName": "No Brand",
+          "brandId": "39704",
+          "cheapest_sku": "380072262_BD-1906649481",
+          "skuId": "1906649481",
+          "sku": "380072262_BD",
+          "categories": [9067, 9350, 9352, 9354],
+          "showFeedBack": false,
+          "price": "60",
+          "inStock": true,
+          "clickTrace": "query:;nid:380072262;src:LazadaMainSrp;rn:7aef099b8702ea5772a03bee69382615;region:bd;sku:380072262_BD;price:60;client:desktop;supplier_id:700504932149;biz_source:h5_unknow;slot:39;utlog_bucket_id:470687;asc_category_id:9354;item_id:380072262;sku_id:1906649481;shop_id:52640;templateInfo:1103_B_L#",
+          "itemSoldCntShow": "9 sold",
+          "longImageDisplayable": false,
+          "skus": [
+            {
+              "id": "380072262_BD-1906649481"
+            }
+          ],
+          "promotionId": "",
+          "isSponsored": false,
+          "tItemType": "nt_product",
+          "skuType": "",
+          "adFlag": "0",
+          "directSimilarUrl": "https://native.m.lazada.com/dynamicxresult?item_img=https%3A%2F%2Fstatic-01.daraz.com.bd%2Fp%2Fb45b0b9cdc16285b5b202d97399e8cce.jpg&src=srp_findsimilar&item_id=380072262&sku_id=1906649481&params=%7B%22sub_src%22%3A%22long_press%22%2C%22src%22%3A%22srp_findsimilar%22%7D&m=tpp_findSimilar&similarType=findSimilarV1&price=60.00&spuTriggerItem=0",
+          "gridTitleLine": "2",
+          "isFission": "0",
+          "isBadgeAutoScroll": false,
+          "showCart": false,
+          "itemUrl": "//www.daraz.com.bd/products/xt60-malefemale-connector-pair-for-rc-lipo-battery-i380072262.html",
+          "querystring": "priceCompare=skuId%3A1906649481%3Bsource%3Alazada-search-voucher%3Bsn%3A7aef099b8702ea5772a03bee69382615%3BunionTrace%3A21010ca017257180485372593ec278%3BoriginPrice%3A6000%3BvoucherPrice%3A6000%3BdisplayPrice%3A6000%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3Btimestamp%3A1725718048693&fs_ab=1&c=&ratingscore=5.0&freeshipping=0&source=search&channelLpJumpArgs=&fuse_fs=&search=1&sale=9&price=6E%201&review=1&location=Dhaka&stock=1&lang=en&request_id=7aef099b8702ea5772a03bee69382615&clickTrackInfo=query%253A%253Bnid%253A380072262%253Bsrc%253ALazadaMainSrp%253Brn%253A7aef099b8702ea5772a03bee69382615%253Bregion%253Abd%253Bsku%253A380072262_BD%253Bprice%253A60%253Bclient%253Adesktop%253Bsupplier_id%253A700504932149%253Bbiz_source%253Ah5_unknow%253Bslot%253A39%253Butlog_bucket_id%253A470687%253Basc_category_id%253A9354%253Bitem_id%253A380072262%253Bsku_id%253A1906649481%253Bshop_id%253A52640%253BtemplateInfo%253A1103_B_L%2523"
+        }
+      ],
+      "breadcrumb": [
+        {
+          "url": "https://www.daraz.com.bd",
+          "title": "Home"
+        },
+        {
+          "url": "/drones-and-accessories/",
+          "title": "Drones & Accessories"
+        },
+        {
+          "url": "/toys-games/",
+          "title": "Toys & Games"
+        },
+        {
+          "url": "/remote-control-toys-and-play-vehicles/",
+          "title": "Remote Control & Play Vehicles"
+        },
+        {
+          "url": "/drones-batteries/",
+          "title": "Accessories & Batteries"
+        }
+      ],
+      "sortBar": {
+        "tItemType": "nt_sortbar",
+        "filter": "Filter",
+        "style": "wf",
+        "sortItems": [
+          {
+            "name": "Popularity",
+            "tip": "Best Match",
+            "isActive": "true",
+            "value": "popularity",
+            "key": "sort",
+            "tabName": ""
+          },
+          {
+            "name": "Price-ASC",
+            "tip": "Price low to high",
+            "value": "priceasc",
+            "key": "sort",
+            "tabName": ""
+          },
+          {
+            "name": "Price-DESC",
+            "tip": "Price high to low",
+            "value": "pricedesc",
+            "key": "sort",
+            "tabName": ""
+          }
+        ],
+        "hiddenLayoutBtn": false,
+        "showFilterBtn": true,
+        "hasFilter": false
+      },
+      "resultTips": {
+        "tItemType": "nt_resulttips",
+        "tips": "158 items found in {$0}",
+        "keywords": [
+          {
+            "text": "Accessories & Batteries"
+          }
+        ]
+      },
+      "linksInfo": []
+    },
+    "mainInfo": {
+      "errorMsg": "",
+      "bizCode": 0,
+      "totalResults": "158",
+      "pageSize": "40",
+      "page": "1",
+      "hiddenLayoutBtn": false,
+      "layoutInfo": {
+        "listHeader": [
+          "didYouMean",
+          "campaignBanner",
+          "categoryBar",
+          "brandBar",
+          "superStore",
+          "banner",
+          "resultTips",
+          "promotionfilter",
+          "navCategory",
+          "hotDeal",
+          "emptyResult",
+          "recQuery",
+          "emptyResultBannerTips",
+          "recommendTitle"
+        ],
+        "stickyHeader": [
+          "sortBar",
+          "preposeFilter",
+          "tab",
+          "reminderBanner"
+        ],
+        "sceneHeader": []
+      },
+      "pageType": "SearchListCategory",
+      "gridTitleLine": "2",
+      "trackParams": {
+        "categoryAsc": "9354",
+        "category": "9354"
+      },
+      "userId": "",
+      "anonUid": "8NP7TOMJs9iVBqmfZvI081rpU2A9Ye9s",
+      "hyperspaceInfo": "",
+      "currency": "৳ ",
+      "currencyOnRight": "false",
+      "currencySpace": "false",
+      "isShowFeedbackForm": "false",
+      "showThumbs": "false",
+      "allProductURL": "/all-products/",
+      "addToCartURL": "//cart.daraz.com.bd/cart/api/add",
+      "cluster": "fiber2_sg52",
+      "column": 2,
+      "bucketId": "v3",
+      "auctionType": 1,
+      "noMorePages": false,
+      "srpName": "LazadaMainSrp",
+      "params": "{\"src\":\"h5_unknow\"}",
+      "searchScenario": "others",
+      "hiddenShopChangeBtn": true,
+      "selectedFilters": {
+        "category": "9354"
+      },
+      "expParams": {
+        "isBadgeAutoScroll": "0",
+        "filterLazyLoad": "0",
+        "storeTabRightOfSortBar": "0",
+        "enableFeedbackAssistant": "0",
+        "disableScreenSimple": "1",
+        "disableFspImagePreload": "0"
+      },
+      "filterLazyLoad": false,
+      "RN": "7aef099b8702ea5772a03bee69382615",
+      "style": "wf",
+      "lang": "en",
+      "venture": "BD",
+      "themes": [
+        {
+          "img": "https://img.lazcdn.com/us/lazgcp/9fb2ae9f-ca39-4534-8222-465886b0aa45_ALL-135-52.png",
+          "width": "135",
+          "labelMarginLeft": "0",
+          "key": "120555",
+          "height": "52"
+        },
+        {
+          "bgColor": "#FDF3EA",
+          "color": "#ED8829",
+          "font-size": "11",
+          "labelMarginLeft": "0",
+          "key": "116038",
+          "startColor": "#FDF3EA"
+        },
+        {
+          "img": "https://img.lazcdn.com/us/lzd-onepiece/584728cc52445e1bb4cc557d2e21844c1718003947342.png",
+          "width": "100",
+          "labelMarginLeft": "0",
+          "key": "116225",
+          "height": "36"
+        },
+        {
+          "img": "https://img.lazcdn.com/us/lzd-onepiece/d33ca3f08cb2084c2f2f64d457987c731717500686221.png",
+          "width": "188",
+          "labelMarginLeft": "0",
+          "key": "116050",
+          "height": "36"
+        }
+      ],
+      "q": "",
+      "rt": {
+        "all": 145
+      },
+      "reqParams": "{\"src\":\"h5_unknow\",\"refer\":\"\",\"scenario\":\"keyword-dynamic\",\"ab_test\":\"BASE:0\"}",
+      "pageTitle": "Buy Drone Accessories & Batteries Online at Best Price in Bangladesh - Daraz.com.bd"
+    },
+    "seoInfo": {
+      "robotsContent": "index,follow",
+      "canonicalHref": "/drones-batteries/",
+      "androidDeepLink": "android-app://com.lazada.android/lazada/bd/page?url_key=%2Fdrones-batteries%2F&utm_campaign=%2Fdrones-batteries%2F&utm_medium=organic&utm_source=google_app_indexing&utm_from=search",
+      "nextHref": "/drones-batteries/?page=2",
+      "internalLink": [],
+      "h1": "",
+      "pageTitle": "Buy Drone Accessories & Batteries Online at Best Price in Bangladesh - Daraz.com.bd",
+      "description": "Bangladesh - Shop for Best Online at Daraz.com.bd Wide Variety of Drone Accessories & Batteries. Great Prices, Even Better Service.",
+      "itemListSchema": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "//www.daraz.com.bd/products/zfr-f190-i266841354.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "//www.daraz.com.bd/products/su27-37-250mah-i330768620.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "//www.daraz.com.bd/products/702030p-300mah-li-po-battery-for-rc-toy-quadcopter-drone-i287270501.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "//www.daraz.com.bd/products/propeller-fan-blade-for-rc-project-8-inch-2pcs-i316841037.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "//www.daraz.com.bd/products/rc-2-i354174112.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "//www.daraz.com.bd/products/4-i151852118.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "//www.daraz.com.bd/products/52000rpm-37v-dc-coreless-motor-for-rc-airplane-mini-drone-motor-i182251150.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "//www.daraz.com.bd/products/dc-i203528868.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "//www.daraz.com.bd/products/premium-usb-lithium-polymer-li-po-fast-battery-charger-adapter-with-xh254molex-51005-2p-connector-for-rc-drone-helicopter-car-airplane-i194872068.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "//www.daraz.com.bd/products/4-i324989686.html"
+          }
+        ]
+      },
+      "breadcrumbSchema": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "@id": "https://www.daraz.com.bd",
+              "name": "Home"
+            },
+            "@type": "ListItem",
+            "position": 1
+          },
+          {
+            "item": {
+              "@id": "https://www.daraz.com.bdurl",
+              "name": "Drones & Accessories"
+            },
+            "@type": "ListItem",
+            "position": 2
+          },
+          {
+            "item": {
+              "@id": "https://www.daraz.com.bdurl",
+              "name": "Toys & Games"
+            },
+            "@type": "ListItem",
+            "position": 3
+          },
+          {
+            "item": {
+              "@id": "https://www.daraz.com.bdurl",
+              "name": "Remote Control & Play Vehicles"
+            },
+            "@type": "ListItem",
+            "position": 4
+          }
+        ]
+      },
+      "breadcrumbData": [
+        {
+          "categoryName": "Home",
+          "categoryLink": "https://www.daraz.com.bd"
+        },
+        {
+          "categoryName": "Drones & Accessories",
+          "categoryLink": "/drones-and-accessories/"
+        },
+        {
+          "categoryName": "Toys & Games",
+          "categoryLink": "/toys-games/"
+        },
+        {
+          "categoryName": "Remote Control & Play Vehicles",
+          "categoryLink": "/remote-control-toys-and-play-vehicles/"
+        },
+        {
+          "categoryName": "Accessories & Batteries",
+          "categoryLink": "/drones-batteries/"
+        }
+      ],
+      "productSchema": {
+        "@type": "Product",
+        "@context": "https://schema.org",
+        "name": "Universal Double Charger For 3.7V 18650 16340 14500 Li-Ion Rechargeable Battery - Battery",
+        "image": "https://static-01.daraz.com.bd/p/1965175e45c3cd2c931967e360491c58.jpg",
+        "sku": "180087260_BD",
+        "mpn": "1127062261",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.2",
+          "ratingCount": 314
+        },
+        "brand": {
+          "@type": "Organization",
+          "name": "No Brand"
+        }
+      }
+    }
+  }
