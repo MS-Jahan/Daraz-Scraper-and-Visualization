@@ -12,7 +12,7 @@ from report_generator import generate_report
 PRINT_ERRORS = True
 WAIT_BETWEEN_PAGES = True
 TRUNCATE_TABLE_BEFORE_INSERT = True
-USER_INPUTTED_URL = "https://www.daraz.com.bd/ska-egg-boilers/?up_id=379896699&clickTrackInfo=85aedc40-28f8-41b8-9041-17568c23acd1__10000285__379896699__static__0.1__158061__7253&from=hp_categories&item_id=379896699&version=v2&params=%7B%22catIdLv1%22%3A%22275%22%2C%22pvid%22%3A%2285aedc40-28f8-41b8-9041-17568c23acd1%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Egg%2BBoilers%22%2C%22categoryId%22%3A%2210000285%22%7D&src=hp_categories&spm=a2a0e.tm80335401.categoriesPC.d_4_10000285" # input("Enter the category URL: ")
+USER_INPUTTED_URL = "https://www.daraz.com.bd/ska-egg-boilers/" # input("Enter the category URL: ")
 category_tag = USER_INPUTTED_URL.split("?")[0].rstrip("/").replace("https://www.daraz.com.bd/", "")
 URL = f"https://www.daraz.com.bd/{category_tag}/?ajax=true&page="
 DB = get_db(TRUNCATE_TABLE_BEFORE_INSERT)
