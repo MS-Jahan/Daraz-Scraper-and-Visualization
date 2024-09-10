@@ -1,15 +1,12 @@
-from DrissionPage import ChromiumPage, ChromiumOptions
-import os
+import httpx as requests
 import math
+import json
+import traceback
+import time, random
+from pprint import pprint
 
 from helpers import *
 from database import Database
-
-# Get the category tag from the URL, example: https://www.daraz.com.bd/toys-action-figures/
-USER_INPUTTED_URL = "https://www.daraz.com.bd/furniture-hardware/" # input("Enter the category URL: ")
-category_tag = USER_INPUTTED_URL.split("?")[0].rstrip("/").replace("https://www.daraz.com.bd/", "")
-URL = f"https://www.daraz.com.bd/{category_tag}/?ajax=true&page="
-
 
 DB = Database("localhost", "root", "1234", "products")
 session = requests.Client(
@@ -24,25 +21,20 @@ session = requests.Client(
 )
 PRINT_ERRORS = True
 WAIT_BETWEEN_PAGES = True
+
 def print_error():
     if PRINT_ERRORS:
         print(traceback.format_exc())
 
-# check the os and set the browser path
-if os.name == 'nt':
-    browser_path = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
-else:
-    browser_path = "/usr/bin/google-chrome-stable"
+# Get the category tag from the URL, example: https://www.daraz.com.bd/toys-action-figures/
+URL = input("Enter the category URL: ")
+category_tag = URL.split("?")[0].rstrip("/").replace("https://www.daraz.com.bd/", "")
+URL = f"https://www.daraz.com.bd/{category_tag}/?ajax=true&page="
 
-# with Display(visible=0, size=[1920, 1080]) as display:
-op = ChromiumOptions().set_browser_path(browser_path)
-# op.headless(True)
-op.auto_port()
-dp = ChromiumPage(op)
-dp.get(USER_INPUTTED_URL)
+
 
 print("\nFetching 1st page for category:", category_tag)
-response = send_get_request_and_return_json(dp, URL+"1")
+response = session.get(URL+"1")
 
 all_data = []
 
@@ -51,7 +43,7 @@ current_page_items = []
 total_items = 0
 
 try:
-    data = response
+    data = response.json()
     # save page 1 json data to a file
     with open("page_1.json", "w") as f:
         f.write(json.dumps(data, indent=4))
@@ -83,9 +75,9 @@ for page in range(2, number_of_pages + 1):
     while max_tries > 0:
         try:
             print(f"\nFetching page {page}...")
-            response = send_get_request_and_return_json(dp, URL+str(page))
+            response = session.get(URL+str(page))
             try:
-                data = response
+                data = response.json()
                 # save json data to a file
                 with open(f"page_{page}.json", "w") as f:
                     f.write(json.dumps(data, indent=4))
