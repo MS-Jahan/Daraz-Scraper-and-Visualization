@@ -179,4 +179,19 @@ print(f"Report generated successfully: {report_filename}")
 DB.close()
 
 # open the report in the default browser
-os.system(f"start {report_filename}")
+try:
+    os.system(f"start {report_filename}")
+except:
+    print("Failed to open the report automatically. Please open the report manually.")
+
+server_thread = threading.Thread(target=serve_report, args=(report_filename,))
+server_thread.start()
+
+print(f"You can view the report by opening http://localhost:8080/{os.path.basename(report_filename)} in your web browser")
+
+# Keep the main thread running
+try:
+    while True:
+        pass
+except KeyboardInterrupt:
+    print("Shutting down the server...")

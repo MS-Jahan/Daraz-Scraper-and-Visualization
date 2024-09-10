@@ -2,9 +2,23 @@ import httpx as requests
 import traceback
 import json
 import time, random
+import http.server
+import socketserver
+import webbrowser
+import threading
+import os
 
 def get_latest_browser_useragent():
     return "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+def serve_report(report_filename):
+    port = 8080
+    os.chdir('output')  # Change to the output directory
+    Handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", port), Handler) as httpd:
+        print(f"Serving report at http://localhost:{port}/{os.path.basename(report_filename)}")
+        print(f"Press Ctrl+C to stop the server")
+        httpd.serve_forever()
 
 def get_product_details(product_json):
     product = {}
