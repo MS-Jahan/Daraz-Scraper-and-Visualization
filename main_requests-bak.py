@@ -4,7 +4,6 @@ import json
 import traceback
 import time, random
 from pprint import pprint
-
 from helpers import *
 from database import Database
 

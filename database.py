@@ -6,7 +6,7 @@ import traceback
 from pprint import pprint
 
 class Database:
-    def __init__(self, host, user, password, database):
+    def __init__(self, host, user, password, database, TRUNCATE_TABLE_BEFORE_INSERT=True):
         """Initialize the database connection and create the products table if it doesn't exist."""
         try:
             self.conn = mysql.connector.connect(
@@ -17,13 +17,13 @@ class Database:
             )
             if self.conn.is_connected():
                 self.cur = self.conn.cursor()
-                self._create_table()
+                self._create_table(TRUNCATE_TABLE_BEFORE_INSERT)
                 print("Connected to MySQL database")
         except Error as e:
             print(f"Error connecting to MySQL: {e}")
             self.conn = None
 
-    def _create_table(self):
+    def _create_table(self, TRUNCATE_TABLE_BEFORE_INSERT):
         """Create the products table if it does not already exist."""
         create_table_query = """
         CREATE TABLE IF NOT EXISTS products (
@@ -43,9 +43,10 @@ class Database:
         """
         self.cur.execute(create_table_query)
         self.conn.commit()
-        truncate_table_query = "TRUNCATE TABLE products"
-        self.cur.execute(truncate_table_query)
-        self.conn.commit()
+        if TRUNCATE_TABLE_BEFORE_INSERT:
+            truncate_table_query = "TRUNCATE TABLE products"
+            self.cur.execute(truncate_table_query)
+            self.conn.commit()
 
     def query_db(self, query, args=(), one=False):
         """Execute a query and return the results as a list of dictionaries."""
@@ -53,6 +54,11 @@ class Database:
         columns = [desc[0] for desc in self.cur.description]
         rows = [dict(zip(columns, row)) for row in self.cur.fetchall()]
         return rows[0] if rows else None if one else rows
+
+    def get_all_data(self):
+        """Return all data from the products table."""
+        query = "SELECT * FROM products"
+        return self.query_db(query)
 
     def insert(self, product):
         """Insert a single product into the database."""
@@ -119,7 +125,7 @@ class Database:
                 ) for product in batch
             ])
             total_inserted += self.cur.rowcount  # Count how many rows were inserted
-            print(f"Inserted {total_inserted} rows...")
+            # print(f"Inserted {total_inserted} rows...")
 
         self.conn.commit()
         return len(products), total_inserted  # Return the total number of products and the total inserted

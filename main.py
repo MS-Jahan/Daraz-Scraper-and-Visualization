@@ -1,29 +1,22 @@
 from DrissionPage import ChromiumPage, ChromiumOptions
 import os
 import math
-
 from helpers import *
-from database import Database
+from config import *
+from data_prep import prepare_data
+from data_analysis import *
+from data_visualization import *
+from report_generator import generate_report
 
 # Get the category tag from the URL, example: https://www.daraz.com.bd/toys-action-figures/
-USER_INPUTTED_URL = "https://www.daraz.com.bd/furniture-hardware/" # input("Enter the category URL: ")
-category_tag = USER_INPUTTED_URL.split("?")[0].rstrip("/").replace("https://www.daraz.com.bd/", "")
-URL = f"https://www.daraz.com.bd/{category_tag}/?ajax=true&page="
-
-
-DB = Database("localhost", "root", "1234", "products")
-session = requests.Client(
-    headers = {
-    "User-Agent": get_latest_browser_useragent(),
-    "accept": "application/json, text/plain, */*",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-US,en;q=0.5"
-    },
-    timeout = (10, 10),
-    http2=True
-)
 PRINT_ERRORS = True
 WAIT_BETWEEN_PAGES = True
+TRUNCATE_TABLE_BEFORE_INSERT = True
+USER_INPUTTED_URL = "https://www.daraz.com.bd/ska-egg-boilers/?up_id=379896699&clickTrackInfo=85aedc40-28f8-41b8-9041-17568c23acd1__10000285__379896699__static__0.1__158061__7253&from=hp_categories&item_id=379896699&version=v2&params=%7B%22catIdLv1%22%3A%22275%22%2C%22pvid%22%3A%2285aedc40-28f8-41b8-9041-17568c23acd1%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Egg%2BBoilers%22%2C%22categoryId%22%3A%2210000285%22%7D&src=hp_categories&spm=a2a0e.tm80335401.categoriesPC.d_4_10000285" # input("Enter the category URL: ")
+category_tag = USER_INPUTTED_URL.split("?")[0].rstrip("/").replace("https://www.daraz.com.bd/", "")
+URL = f"https://www.daraz.com.bd/{category_tag}/?ajax=true&page="
+DB = get_db(TRUNCATE_TABLE_BEFORE_INSERT)
+
 def print_error():
     if PRINT_ERRORS:
         print(traceback.format_exc())
@@ -50,10 +43,16 @@ data = []
 current_page_items = []
 total_items = 0
 
+# if no logs, data and output directory, create one
+if not os.path.exists("logs"):
+    os.makedirs("logs")
+if not os.path.exists("output"):
+    os.makedirs("output")
+
 try:
     data = response
     # save page 1 json data to a file
-    with open("page_1.json", "w") as f:
+    with open("logs/page_1.json", "w") as f:
         f.write(json.dumps(data, indent=4))
     current_page_items = data["mods"]["listItems"]
     total_items = int(data["mods"]["filter"]["filteredQuatity"])
@@ -63,7 +62,7 @@ except:
     print("Failed to get data")
     print_error()
     # save json data to a file
-    with open("failed_page_1.json", "w") as f:
+    with open("logs/failed_page_1.json", "w") as f:
         f.write(json.dumps(data, indent=4))
     exit()
 
@@ -82,23 +81,23 @@ for page in range(2, number_of_pages + 1):
     max_tries = 3
     while max_tries > 0:
         try:
-            print(f"\nFetching page {page}...")
+            print(f"\nFetching page {page}/{number_of_pages}...")
             response = send_get_request_and_return_json(dp, URL+str(page))
             try:
                 data = response
                 # save json data to a file
-                with open(f"page_{page}.json", "w") as f:
+                with open(f"logs/page_{page}.json", "w") as f:
                     f.write(json.dumps(data, indent=4))
                 products_in_page = get_current_page_items(data)
                 all_data += products_in_page
-                print(f"Inserting items from page {page} to the database...")
+                print(f"Inserting items from page {page}/{number_of_pages} to the database...")
                 proudcts_inputted, total_inserted = DB.batch_insert(products_in_page)
                 print(f"Iems processed: {proudcts_inputted}\nItems inserted: {total_inserted}")
             except:
-                print(f"Failed to get data for page {page}")
+                print(f"Failed to get data for page {page}/{number_of_pages}")
                 print_error()
                 # save json data to a file
-                with open(f"failed_page_{page}.json", "w") as f:
+                with open(f"logs/failed_page_{page}.json", "w") as f:
                     f.write(json.dumps(data, indent=4))
             
             # check if last page
@@ -113,22 +112,71 @@ for page in range(2, number_of_pages + 1):
             print("Retrying...")
             max_tries -= 1
 
+# close the browser
+dp.close()
+
 # check how many duplicates are there in the data using item_id
 duplicates = DB.check_duplicate_entries_in_db()
 print(f"Total duplicate entries: {len(duplicates)}")
 
 if len(duplicates) > 0:
     # save duplicates to a file
-    with open("duplicates.json", "w") as f:
+    with open("logs/duplicates.json", "w") as f:
         f.write(json.dumps(duplicates, indent=4))
-    # print("Removing duplicates...")
-    # DB.remove_duplicates()
+    print("Removing duplicates...")
+    DB.remove_duplicates()
 
 print(f"Total items processed: {DB.get_total_items()}")
 
 # save all data to a file
-with open("all_data.json", "w") as f:
+with open("logs/all_data.json", "w") as f:
     f.write(json.dumps(all_data, indent=4))
 
+# read the file
+with open("logs/all_data.json", "r") as f:
+    all_data = json.load(f)
+
+# Data Extraction and Preparation
+df = prepare_data(all_data)
+
+# Data Analysis
+desc_stats = descriptive_stats(df)
+price_stats, price_ranges = price_analysis(df)
+avg_discount, max_discount_products = discount_analysis(df)
+avg_rating, rating_dist = rating_review_analysis(df)
+location_counts = location_analysis(df)
+correlations = correlation_analysis(df)
+
+# Data Visualization
+price_histogram = plot_histogram(df['current_price'], "Price Distribution", "Price", "Frequency", "output/price_histogram.png")
+discount_histogram = plot_histogram(df['discount_percentage'], "Discount Distribution", "Discount (%)", "Frequency", "output/discount_histogram.png")
+rating_histogram = plot_histogram(df['rating'], "Rating Distribution", "Rating", "Frequency", "output/rating_histogram.png")
+
+price_discount_scatter = plot_scatter(df['current_price'], df['discount_percentage'], "Price vs. Discount", "Price", "Discount (%)", "output/price_discount_scatter.png")
+rating_reviews_scatter = plot_scatter(df['rating'], df['number_of_reviews'], "Rating vs. Reviews", "Rating", "Number of Reviews", "output/rating_reviews_scatter.png")
+
+location_bar_chart = plot_bar_chart(location_counts.index, location_counts.values, "Product Locations", "Location", "Count", "output/location_bar_chart.png")
+
+# Example: Box plot of price distribution by location (you may need to adjust this based on your data)
+location_price_boxplot = plot_box_plot([df['current_price'][df['location'] == loc] for loc in location_counts.index],
+                                     location_counts.index,
+                                     "Price Distribution by Location", "Price", "output/location_price_boxplot.png")
+# Report Generation
+visualizations = {
+    'price_histogram': price_histogram,
+    'discount_histogram': discount_histogram,
+    'rating_histogram': rating_histogram,
+    'price_discount_scatter': price_discount_scatter,
+    'rating_reviews_scatter': rating_reviews_scatter,
+    'location_bar_chart': location_bar_chart,
+    'location_price_boxplot': location_price_boxplot
+}
+report_filename = generate_report(desc_stats, price_stats, price_ranges, avg_discount,
+                                max_discount_products, avg_rating, rating_dist,
+                                location_counts, correlations, visualizations)
+
+print(f"Report generated successfully: {report_filename}")
 DB.close()
 
+# open the report in the default browser
+os.system(f"start {report_filename}")
