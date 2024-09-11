@@ -25,14 +25,36 @@ def print_error():
 if os.name == 'nt':
     browser_path = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 else:
-    browser_path = "/usr/bin/google-chrome-stable"
+    if os.path.exists("/usr/share/google-chrome"):
+        browser_path = "/usr/shar/google-chrome"
+    elif os.path.exists("/usr/bin/chromium-browser"):
+        browser_path = "/usr/bin/chromium-browser"
+    else:
+        browser_path = "/opt/google/chrome"
 
-# with Display(visible=0, size=[1920, 1080]) as display:
+print("browser_path:", browser_path)
+
 op = ChromiumOptions().set_browser_path(browser_path)
-# op.headless(True)
+op.headless(True)
+op.set_argument("--remote-debugging-port=15652")  # Remote debugging port
+op.set_argument("--disable-gpu")
+op.set_argument("--disable-extensions")
+op.set_argument("--disable-infobars")
+op.set_argument("--start-maximized")
+op.set_argument("--disable-notifications")
+op.set_argument('--headless')
+op.set_argument('--no-sandbox')
+op.set_argument('--disable-dev-shm-usage')
 op.auto_port()
+print("Starting browser...")
 dp = ChromiumPage(op)
-dp.get(USER_INPUTTED_URL)
+
+# get current user agent running js and remove "Headless" from it
+user_agent = dp.run_js_loaded("return navigator.userAgent").replace("Headless", "")
+dp.set.user_agent(user_agent)
+
+print("Loading page...")
+dp.get(USER_INPUTTED_URL, timeout=10)
 
 print("\nFetching 1st page for category:", category_tag)
 response = send_get_request_and_return_json(dp, URL+"1")
@@ -187,7 +209,7 @@ except:
 server_thread = threading.Thread(target=serve_report, args=(report_filename,))
 server_thread.start()
 
-print(f"You can view the report by opening http://localhost:8080/{os.path.basename(report_filename)} in your web browser")
+print(f"You can view the report by opening http://localhost:8080/{os.path.basename(report_filename)} in your web browser.")
 
 # Keep the main thread running
 try:

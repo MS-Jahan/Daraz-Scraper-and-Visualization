@@ -3,12 +3,19 @@ services:
     build: .
     ports:
       - "8080:8080"
+      - "15652:15652"
     environment:
       - DISPLAY=:0
+      - WAIT_HOSTS=mysql:3306  # This will make scraper wait for MySQL to be ready
     volumes:
       - ./output:/app/output
     networks:
       - scraper-net
+    depends_on:
+      mysql:
+        condition: service_healthy  # Wait for MySQL health check
+    tty: true # Enable pseudo-TTY for interactive sessions
+    stdin_open: true
 
   mysql:
     image: mysql:8.0
@@ -19,6 +26,12 @@ services:
       - mysql-data:/var/lib/mysql
     networks:
       - scraper-net
+    healthcheck:  # Add a health check for MySQL
+      test: ["CMD", "mysqladmin", "ping", "--silent"]
+      interval: 10s  # Check every 10 seconds
+      retries: 5  # Retry 5 times
+      start_period: 30s  # Wait 30 seconds before starting the health checks
+      timeout: 5s
 
 volumes:
   mysql-data:

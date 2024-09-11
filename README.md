@@ -18,11 +18,20 @@ This project scrapes product data given a specific category url from the Daraz e
 *   Matplotlib
 *   MySQL Connector/Python
 
+## Quick Run using Docker
+```bash
+git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git && cd Daraz-Scraper-and-Visualization && docker-compose up --build
+``` 
+
 ## Installation
 
 1.  Clone the repository:
     ```bash
     git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git
+    ```
+2.  Change directory:
+    ```bash
+    cd Daraz-Scraper-and-Visualization
     ```
 2.  Install the required packages:
     ```bash
