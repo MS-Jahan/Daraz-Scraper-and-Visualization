@@ -1,72 +1,80 @@
 # Daraz Product Scraping and Analysis
 
-This project scrapes product data given a specific category url from the Daraz e-commerce website (specifically Daraz Bangladesh) and performs analysis and visualization on the collected data. It uses Python libraries like `DrissionPage`, `Pandas`, and `Matplotlib` for web scraping, data manipulation, and visualization, respectively. The scraped data is stored in a MySQL database.
+Scrape product listings from a Daraz Bangladesh category URL, store them in MySQL, then run Pandas analysis and Matplotlib visualizations into an HTML report.
 
-## Features
+<!-- screenshot: docs/screenshots/hero.png -->
 
-*   Scrapes product information from Daraz from a specific category url (name, image, price, discount, rating, reviews, location, etc.).
-*   Stores the scraped data in a MySQL database.
-*   Performs data analysis using Pandas (descriptive statistics, price analysis, discount analysis, rating analysis, location analysis, correlation analysis).
-*   Generates visualizations using Matplotlib (histograms, scatter plots, bar charts, box plots).
-*   Creates an HTML report with the analysis results and embedded visualizations.
+## Overview
 
-## Requirements
+End-to-end pipeline: scrape → MySQL → clean/analyze → charts → `daraz_report.html`. Useful as a data-scraping + visualization portfolio piece. Prefer Docker for a one-command run.
 
-*   Python 3.7+ (tested with 3.12)
-*   DrissionPage
-*   Pandas
-*   Matplotlib
-*   MySQL Connector/Python
+## Links
 
-## Quick Run using Docker
+- **Repo:** https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization
+- **Live demo:** none (local / Docker). Output artifact: `daraz_report.html` after a successful run
+- **Sample data:** `products-sample.json`, `sample-output.json`
+
+## Key Features
+
+- Scrape category pages (name, image, price, discount, rating, reviews, location, …)
+- Persist products in MySQL
+- Pandas analysis (descriptive stats, price/discount/rating/location, correlations)
+- Matplotlib charts (histograms, scatter, bar, box)
+- HTML report with embedded visualizations
+
+## Tech Stack
+
+**Python 3.7+** (tested 3.12) · **Scraping:** DrissionPage · **Data:** Pandas, NumPy · **Viz:** Matplotlib · **DB:** MySQL (`mysql-connector-python`) · **Packaging:** Docker / Docker Compose
+
+## Dependencies
+
+Install from `requirements.txt`. Core packages:
+
+- `DrissionPage`, `pandas`, `matplotlib`, `numpy`, `pillow`
+- `mysql-connector-python`, `requests`, `lxml`, `httpx`
+
 ```bash
-git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git && cd Daraz-Scraper-and-Visualization && docker-compose up --build
-``` 
+pip install -r requirements.txt
+```
 
-## Installation
+## Quick Run (Docker)
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git
-    ```
-2.  Change directory:
-    ```bash
-    cd Daraz-Scraper-and-Visualization
-    ```
-2.  Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  Set up the MySQL database:
-    *   Create a new database named "products".
-    *   Create a table named "products" with the appropriate columns (see `database.py`).
-    *   Update the database credentials in `config.py`.
+```bash
+git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git
+cd Daraz-Scraper-and-Visualization
+docker-compose up --build
+```
 
-## Usage
+## How to Run Locally
 
-1.  Update the `USER_INPUTTED_URL` and check other variables in `main.py` with the Daraz category URL you want to scrape.
-2.  Change database credentials in `config.py`.
-3.  Run `main.py`:
-    ```bash
-    python3 main.py
-    ```
-3.  The script will scrape the data, store it in the database, perform analysis, generate visualizations, and create an HTML report named `daraz_report.html`.
+```bash
+git clone https://github.com/MS-Jahan/Daraz-Scraper-and-Visualization.git
+cd Daraz-Scraper-and-Visualization
+pip install -r requirements.txt
+```
+
+1. Create MySQL database/table `products` (see `database.py`).
+2. Set DB credentials in `config.py`.
+3. Set `USER_INPUTTED_URL` (and related vars) in `main.py` to a Daraz category URL.
+4. Run:
+
+```bash
+python3 main.py
+```
+
+The script scrapes, stores, analyzes, plots, and writes `daraz_report.html`.
 
 ## Project Structure
 
-*   `main.py`: Main script that orchestrates the scraping, analysis, and report generation.
-*   `helpers.py`: Helper functions for web scraping.
-*   `database.py`: Class for interacting with the MySQL database.
-*   `config.py`: Stores database credentials.
-*   `data_prep.py`: Functions for data extraction and cleaning using Pandas.
-*   `data_analysis.py`: Functions for performing data analysis using Pandas.
-*   `data_visualization.py`: Functions for creating visualizations using Matplotlib.
-*   `report_generator.py`: Function for generating the HTML report.
-
-## Contributing
-
-Contributions are welcome! Please feel free to open issues or pull requests.
+| File | Role |
+| :--- | :--- |
+| `main.py` | Orchestrates scrape → analyze → report |
+| `helpers.py` | Scraping helpers |
+| `database.py` | MySQL access |
+| `config.py` | DB credentials |
+| `data_prep.py` / `data_analysis.py` / `data_visualization.py` | Pandas + Matplotlib |
+| `report_generator.py` | HTML report |
 
 ## License
 
-This project is licensed under the MIT License.
+MIT
