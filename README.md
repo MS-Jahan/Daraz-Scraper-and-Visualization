@@ -2,7 +2,7 @@
 
 Scrape product listings from a Daraz Bangladesh category URL, store them in MySQL, then run Pandas analysis and Matplotlib visualizations into an HTML report.
 
-<!-- screenshot: docs/screenshots/hero.png -->
+![Project overview](docs/screenshots/hero.png)
 
 ## Overview
 
